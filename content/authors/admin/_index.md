@@ -1,6 +1,6 @@
 ---
 # Display name
-title:Ha-youn Shin (申河润)
+title: Ha-youn Shin (申河润)
 
 # Is this the primary user of the site?
 superuser: true
