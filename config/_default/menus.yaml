@@ -10,15 +10,3 @@ main:
   - name: Resumé
     url: about/
     weight: 20
-  - name: 🌍
-    url: "#"
-    weight: 30
-    pre: "<i class='fas fa-globe'></i>"
-    identifier: language-switcher
-    children:
-      - name: 한국어
-        url: /ko/
-        weight: 10
-      - name: English
-        url: /en/
-        weight: 20
