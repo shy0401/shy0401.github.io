@@ -1,7 +1,10 @@
-# 기본 설정
+# Configuration of Hugo
+# Guide: https://docs.hugoblox.com/tutorial/
+# Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
+
 title: SHY Portfolio
-baseURL: 'https://shy0401.github.io/'
-theme: my-theme  # 공통 테마 설정
+baseURL: 'https://shy0401.github.io/' # 사이트 URL
 
 ############################
 ## PAGE OPTIONS
@@ -22,9 +25,8 @@ cascade:
 ############################
 
 defaultContentLanguage: ko
-defaultContentLanguageInSubdir: true
+defaultContentLanguageInSubdir: true  # 기본 언어도 하위 디렉터리를 사용
 hasCJKLanguage: true
-
 languages:
   ko:
     languageCode: ko
@@ -36,7 +38,6 @@ languages:
     contentDir: content/en
     weight: 2
     title: Ha-youn Shin's Portfolio
-
 removePathAccents: true
 
 ############################
