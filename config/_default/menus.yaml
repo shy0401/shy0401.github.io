@@ -1,5 +1,6 @@
 
 main:
+  navbar:
   - name: Bio
     url: /
     weight: 10
