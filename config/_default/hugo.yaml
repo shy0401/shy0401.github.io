@@ -3,8 +3,8 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
-title: Hugo Portfolio Theme # Website name
-baseURL: 'https://example.com/' # Website URL
+title: SHY Portfolio
+baseURL: 'https://shy0401.github.io/' # 사이트 URL
 
 ############################
 ## PAGE OPTIONS
@@ -24,9 +24,20 @@ cascade:
 ## LANGUAGE
 ############################
 
-defaultContentLanguage: en
-hasCJKLanguage: false
-defaultContentLanguageInSubdir: false
+defaultContentLanguage: ko
+defaultContentLanguageInSubdir: true  # 기본 언어도 하위 디렉터리를 사용
+hasCJKLanguage: true
+languages:
+  ko:
+    languageCode: ko
+    contentDir: content/ko
+    weight: 1
+    title: 신하윤의 포트폴리오
+  en:
+    languageCode: en-us
+    contentDir: content/en
+    weight: 2
+    title: Ha-youn Shin's Portfolio
 removePathAccents: true
 
 ############################

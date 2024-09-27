@@ -18,7 +18,7 @@ author: admin
 #  css_class: fullscreen
 ---
 
-👋 Hi, there! I'm **Ha-youn Shin**, a student of JBNU.
+👋 안녕하세요! 저는 전북대학교 컴퓨터인공지능학부에 재학중인 신하윤입니다.
 {style="font-size: 1.2rem; background: #FFB76B; background: linear-gradient(to right, #FFB76B 0%, #FFA73D 30%, #FF7C00 60%, #FF7F04 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent;"}
 
-Check out my [resumé](/about/) and portfolio below 🐇
+제 이력서와 포트폴리오입니다. [resumé](/about/) 🐇
