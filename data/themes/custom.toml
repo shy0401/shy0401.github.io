@@ -1,24 +1,32 @@
-# Essentially Minimal theme but with constant home section bg color.
-name = "SHY POPO
+# Essentially Minimal theme but with constant home section background color.
+name = "SHY POPO"
+
 [light]
-  # Primary
-  primary = "#2962ff"
+# Primary color
+primary = "#2962ff"
 
-  # Menu
-  menu_primary = "rgb(247, 250, 252)"
-  menu_text = "#34495e"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+# Menu colors
+menu_primary = "rgb(247, 250, 252)"  # 메뉴 기본 색상
+menu_text = "#34495e"                # 메뉴 텍스트 색상
+menu_text_active = "#2962ff"         # 활성화된 메뉴 텍스트 색상
+menu_title = "#2b2b2b"               # 메뉴 제목 색상
 
-  # Home sections
-  home_section_odd = "rgb(247, 250, 252)"
-  home_section_even = "rgb(247, 250, 252)"
+# Home sections with constant background color
+home_section_odd = "rgb(247, 250, 252)"   # 홀수 섹션 배경 색상
+home_section_even = "rgb(247, 250, 252)"  # 짝수 섹션 배경 색상
 
 [dark]
-  primary = "#bbdefb"
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
-  background = "rgb(26, 32, 44)"
-  home_section_odd = "rgb(26, 32, 44)"
-  home_section_even = "rgb(26, 32, 44)"
-  menu_primary = "rgb(26, 32, 44)"
+# Primary color
+primary = "#bbdefb"
+
+# Link colors
+link = "#bbdefb"
+link_hover = "#bbdefb"
+
+# Background and home section colors
+background = "rgb(26, 32, 44)"          # 다크 모드 배경
+home_section_odd = "rgb(26, 32, 44)"    # 홀수 섹션 배경 (고정)
+home_section_even = "rgb(26, 32, 44)"   # 짝수 섹션 배경 (고정)
+
+# Menu colors
+menu_primary = "rgb(26, 32, 44)"        # 메뉴 기본 배경
