@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: SHY Portfolio
-baseURL: 'https://shy0401.github.io/' # 사이트 URL
+baseURL: 'https://shy0401.github.io/content/ko' # 사이트 URL
 
 ############################
 ## PAGE OPTIONS
