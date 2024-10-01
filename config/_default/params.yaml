@@ -40,41 +40,8 @@ header:
     show_search: true
     highlight_active_link: true
     logo:
-      image: "/images/logo_3_SHY.png"  # Correct path to the logo in the static folder
+      image: "/assets/images/logo_3_SHY.png"
       text: ""
-
-ko:
-  languageCode: ko
-  contentDir: content/ko
-  title: 신하윤의 포트폴리오
-  params:
-    description: 신하윤의 포트폴리오 페이지
-    header:
-      logo:
-        image: "/images/logo_3_SHY.png"  # Correct path to the logo for Korean language
-        text: ""
-  menu:
-    main:
-      - name: 소개
-        url: '#about'
-        weight: 1
-
-en:
-  languageCode: en-us
-  contentDir: content/en
-  title: SHY's Portfolio
-  params:
-    description: Ha-youn Shin's portfolio page
-    header:
-      logo:
-        image: "/images/logo_3_SHY.png"  # Correct path to the logo for English language
-        text: ""
-  menu:
-    main:
-      - name: About
-        url: '#about'
-        weight: 1
-
 
 footer:
 
