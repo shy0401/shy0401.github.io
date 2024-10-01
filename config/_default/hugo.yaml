@@ -1,7 +1,6 @@
 # Configuration of Hugo
 # Guide: https://docs.hugoblox.com/tutorial/
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
-# This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: SHY Portfolio
 baseURL: 'https://shy0401.github.io/content/ko'  # 사이트 URL
@@ -53,9 +52,37 @@ languages:
 removePathAccents: true
 
 ############################
-## SITE HEADER
+## APPEARANCE
 ############################
 
+appearance:
+  mode: system  # Use system mode for dark/light theme
+  color: emerald  # Emerald color scheme
+
+############################
+## SEO
+############################
+
+marketing:
+  seo:
+    site_type: Person
+    local_business_type: ''
+    org_name: ''
+    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
+    twitter: 'GetResearchDev'
+  analytics:
+    google_analytics: ''
+    baidu_tongji: ''
+    plausible: ''
+    fathom: ''
+    pirsch: ''
+  verification:
+    google: ''
+    baidu: ''
+
+############################
+## SITE HEADER
+############################
 
 header:
   navbar:
@@ -65,8 +92,39 @@ header:
     show_search: true
     show_theme_chooser: true
     logo:
-      image: "/images/logo_3_SHY.png"
+      image: "/images/logo_3_SHY.png"  # Global logo for both languages
       text: ""
+
+############################
+## SITE FOOTER
+############################
+
+footer:
+  copyright:
+    notice: '© {year} Me. This work is licensed under {license}'
+    license:
+      enable: true
+      allow_derivatives: false
+      share_alike: true
+      allow_commercial: false
+
+############################
+## LOCALIZATION
+############################
+
+locale:
+  date_format: 'Jan 2, 2006'
+  time_format: '3:04 PM'
+
+############################
+## SITE FEATURES
+############################
+
+features:
+  math:
+    enable: false
+  privacy_pack:
+    enable: false
 
 ############################
 ## ADVANCED
