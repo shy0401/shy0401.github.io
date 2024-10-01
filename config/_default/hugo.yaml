@@ -56,18 +56,17 @@ removePathAccents: true
 ## SITE HEADER
 ############################
 
+
 header:
   navbar:
     enable: true
-    align: r
-    show_logo: true
-    show_language: true
-    show_day_night: true
+    blox: "navbar"
+    fixed_to_top: true
     show_search: true
-    highlight_active_link: true
+    show_theme_chooser: true
     logo:
-      image: "/images/logo_3_SHY.png"  # Global logo path for both languages
-      text: ""  # No text, only logo
+      image: "/images/logo_3_SHY.png"
+      text: ""
 
 ############################
 ## ADVANCED
