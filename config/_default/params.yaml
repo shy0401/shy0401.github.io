@@ -64,7 +64,7 @@ features:
   privacy_pack:
     enable: false
   repository:
-    url: 'https://github.com/shy0401/github.io'
+    url: ''
     content_dir: content
     branch: main
   avatar:
