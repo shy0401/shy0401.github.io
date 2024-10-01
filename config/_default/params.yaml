@@ -16,10 +16,10 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'A highly-customizable Hugo blog theme powered by Wowchemy website builder.'
-    twitter: 'GetResearchDev'
+    local_business_type: 'portfolio'
+    org_name: 'SHY'
+    description: 'SHY's portfolio Page'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
