@@ -84,15 +84,19 @@ marketing:
 ## SITE HEADER
 ############################
 
+# Site header
 header:
   navbar:
     enable: true
-    blox: "navbar"
+    align: r
+    show_logo: true
+    show_language: true
     fixed_to_top: true
+    show_day_night: true
     show_search: true
-    show_theme_chooser: true
+    highlight_active_lin1k: true
     logo:
-      image: "/images/logo_3_SHY.png"  # Global logo for both languages
+      image: "/assets/images/logo_3_SHY.png"
       text: ""
 
 ############################
