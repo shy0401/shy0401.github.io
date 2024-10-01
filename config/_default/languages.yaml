@@ -1,26 +1,31 @@
-# 기본 언어 한국어
 ko:
   languageCode: ko
   contentDir: content/ko
   title: 신하윤의 포트폴리오
   params:
     description: 신하윤의 포트폴리오 페이지
+    header:
+      logo:
+        image: "/images/logo_3_SHY.png"
+        text: ""
   menu:
     main:
       - name: 소개
         url: '#about'
         weight: 1
 
-# 영어 추가
 en:
   languageCode: en-us
   contentDir: content/en
   title: SHY's Portfolio
   params:
     description: Ha-youn Shin's portfolio page
+    header:
+      logo:
+        image: "/images/logo_3_SHY.png"
+        text: ""
   menu:
     main:
       - name: About
         url: '#about'
         weight: 1
-

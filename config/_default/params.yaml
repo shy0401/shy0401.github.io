@@ -40,8 +40,8 @@ header:
     show_search: true
     highlight_active_link: true
     logo:
-      image: "assets/images/logo_3_SHY.png"  # Specify the path to the logo image
-      text: "SHY POPO"
+      image: "assets/images/logo_3_SHY.png"
+      text: ""
 
 footer:
 
