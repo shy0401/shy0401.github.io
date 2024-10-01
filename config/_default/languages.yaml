@@ -4,7 +4,7 @@ ko:
   contentDir: content/ko
   title: 신하윤의 포트폴리오
   params:
-    description: 신하윤의 포트폴리오 페이지
+    description:
   menu:
     main:
       - name: 소개
@@ -17,7 +17,7 @@ en:
   contentDir: content/en
   title: SHY's Portfolio
   params:
-    description: Ha-youn Shin's portfolio page
+    description:
   menu:
     main:
       - name: About

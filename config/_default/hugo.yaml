@@ -84,7 +84,6 @@ marketing:
 ## SITE HEADER
 ############################
 
-# Site header
 header:
   navbar:
     enable: true
