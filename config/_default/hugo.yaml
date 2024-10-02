@@ -75,7 +75,7 @@ languages:
     menu:
       main:
         - name: 소개
-          url: '#about'
+          url: /about
           weight: 1
         - name: Bio
           url: /
