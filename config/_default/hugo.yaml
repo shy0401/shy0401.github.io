@@ -64,7 +64,7 @@ languages:
           url: /
           weight: 40
         - name: Language
-          weight: 30
+          weight: 90
           url: '#'  # 언어 전환 메뉴
           children:
             - name: 한국어
