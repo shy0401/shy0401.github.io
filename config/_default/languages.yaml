@@ -2,7 +2,7 @@
 ko:
   languageCode: ko
   contentDir: content/ko
-  title: "신하윤의 포트폴리오"
+  title: ""
   logo:
     image: "/content/ko/images/logo_3_SHY.png"  # 이미지 파일이 content/ko 폴더에 있다면
     text: ""  # 텍스트 대신 로고만 사용
