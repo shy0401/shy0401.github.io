@@ -1,117 +1,130 @@
-// Starter Blog Template
-// https://hugoblox.com/hugo-themes/
+// 변수 설정
+$bg-light: rgb(247, 250, 252);
+$bg-dark: rgb(31, 39, 51);
+$bg-footer-dark: rgb(26, 32, 44);
+$card-border-radius: 15px;
+$max-width-container: 880px;
+$avatar-max-size: 225px;
+$avatar-max-size-about: 200px;
 
+// Body 배경 설정
 body {
-  background-color: rgb(247, 250, 252);
+  background-color: $bg-light;
 }
 
+.dark body {
+  background-color: $bg-dark;
+}
+
+// Article Container 스타일
 .article-container {
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: $card-border-radius;
 }
 
 .dark .article-container {
-  background-color: rgb(31, 39, 51);
+  background-color: $bg-dark;
 }
 
-// custom footer color
+// Custom Footer Color
 .page-footer {
-  background-color: rgb(247, 250, 252);
+  background-color: $bg-light;
 }
 
 .dark .page-footer {
-  background-color: rgb(26, 32, 44);
+  background-color: $bg-footer-dark;
 }
 
-// more rounded cards and larger gap between cards
+// 카드 스타일 및 마진
 .card-simple {
   margin-top: 1.8rem;
-  border-radius: 15px;
+  border-radius: $card-border-radius;
 }
 
 .dark .card-simple {
-  background: rgb(31, 39, 51);
+  background: $bg-dark;
 }
 
-// no navbar shadow
+// Navbar의 그림자 제거
 .navbar {
-  box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  box-shadow: none !important; // 'important'로 모든 모드에서 그림자 제거
 }
 
-// custom section padding
+// 홈 섹션 패딩 설정
 .home-section {
   padding: 1rem 0;
+
+  &.wg-about-avatar {
+    padding: 0;
+  }
+
+  > .content {
+    width: 45em;
+    max-width: calc(100% - 4em);
+    margin: 0 auto;
+
+    > :last-child {
+      margin-bottom: 0;
+    }
+  }
+
+  header {
+    margin-bottom: 1em;
+  }
 }
 
-.home-section.wg-about-avatar {
-  padding: 0;
+// 반응형 설정
+@media (min-width: 1200px), (min-width: 992px) {
+  .home-section .container {
+    max-width: $max-width-container;
+  }
 }
 
+// Avatar 크기 설정
+.avatar {
+  width: auto;
+  height: auto;
+  max-width: $avatar-max-size;
+  max-height: $avatar-max-size;
+}
+
+// About 페이지의 Avatar 크기 설정
+.wg-about .avatar {
+  width: auto;
+  height: auto;
+  max-width: $avatar-max-size-about;
+  max-height: $avatar-max-size-about;
+}
+
+// About 페이지의 텍스트 크기 설정
+.wg-about .portrait-title {
+  h2 {
+    font-size: 1rem;
+  }
+
+  h3 {
+    font-size: 0.8rem;
+  }
+}
+
+// Dark mode의 텍스트 색상 설정
+.dark .portrait-title {
+  h2 {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  h3 {
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: bold;
+  }
+}
+
+// 네트워크 아이콘 설정
 #profile .network-icon {
   margin-top: 0.5rem;
 }
 
 ul.network-icon .big-icon {
   font-size: 1.5rem;
-}
-
-.dark .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: bold;
-}
-
-.dark .portrait-title h2 {
-  color: #fff;
-  font-weight: bold;
-}
-
-.home-section > .content {
-  width: 45em;
-  max-width: calc(100% - 4em);
-  margin: 0 auto;
-}
-
-.home-section > .content > :last-child {
-  margin-bottom: 0;
-}
-
-.home-section header {
-  margin-bottom: 1em;
-}
-
-// Narrower container for Hello World sections (primarily Blank widget content).
-@media (min-width: 1200px) {
-  .home-section .container {
-    max-width: 880px;
-  }
-}
-@media (min-width: 992px) {
-  .home-section .container {
-    max-width: 880px;
-  }
-}
-
-// Custom avatar size on homepage
-.avatar {
-  width: auto;
-  height: auto;
-  max-width: 225px;
-  max-height: 225px;
-}
-
-// Prevent stretching on About page with narrow container
-.wg-about .avatar {
-  width: auto;
-  height: auto;
-  max-width: 200px;
-  max-height: 200px;
-}
-
-// Smaller Name and Role text on About page than in homepage `about.avatar` widget
-.wg-about .portrait-title h2 {
-  font-size: 1rem;
-}
-
-.wg-about .portrait-title h3 {
-  font-size: 0.8rem;
 }
