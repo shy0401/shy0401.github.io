@@ -39,29 +39,29 @@ languages:
       description: 신하윤의 포트폴리오 페이지
     menu:
       main:
-        - name: 소개
+        - name: 소식
           url: '#about'
           weight: 1
-        - name: Bio
+        - name: 사이트
           url: /
           weight: 10
-        - name: Papers
-          url: /#papers
+        - name: 자기소개
+          url: /
           weight: 11
-        - name: Talks
-          url: /#talks
+        - name: 자유게시판
+          url: /
           weight: 12
-        - name: News
-          url: /#news
+        - name: 뉴스
+          url: /
           weight: 13
-        - name: Experience
-          url: experience/
+        - name: 문의
+          url: /
           weight: 20
-        - name: Projects
-          url: projects/
+        - name: 로그인
+          url: /
           weight: 30
-        - name: Teaching
-          url: teaching/
+        - name: 위치
+          url: /
           weight: 40
         - name: Language
           weight: 30
