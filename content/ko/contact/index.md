@@ -22,14 +22,7 @@ sections:
       coordinates:
         latitude: '35.84601324617979'
         longitude: '127.13444961966684'
-      directions: []
-  - block: map  # 지도 섹션을 추가하려면 올바른 블록 구조를 추가해야 함
-    content:
-      coordinates:
-        latitude: '35.84601324617979'
-        longitude: '127.13444961966684'
-      zoom: 15
-
+      directions: 
       #contact_links:
       #  - icon: comments
       #    icon_pack: fas
