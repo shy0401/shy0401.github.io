@@ -55,7 +55,7 @@ languages:
           url: /
           weight: 13
         - name: 문의
-          url: /
+          url: contact
           weight: 20
         - name: 로그인
           url: /
