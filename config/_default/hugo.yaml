@@ -3,7 +3,7 @@
 # Hugo Documentation: https://gohugo.io/getting-started/configuration/#all-configuration-settings
 
 title: SHY Portfolio
-baseURL: 'https://shy0401.github.io/content/ko'  # 사이트 URL
+baseURL: 'https://shy0401.github.io/'  # 사이트 URL
 
 ############################
 ## PAGE OPTIONS
@@ -22,34 +22,92 @@ cascade:
 ############################
 ## LANGUAGE
 ############################
-
 defaultContentLanguage: ko
 defaultContentLanguageInSubdir: true  # 기본 언어도 하위 디렉터리를 사용
 hasCJKLanguage: true
+removePathAccents: true
+
 languages:
   ko:
     languageCode: ko
-    contentDir: /ko/
+    contentDir: content/ko
     weight: 1
-    title: 신하윤의 포트폴리오
+    logo:
+      image: "assets/images/logo_3_SHY.png"  # 한국어 사이트 로고 경로
+      text: ""  # 텍스트 대신 로고만 사용
     params:
       description: 신하윤의 포트폴리오 페이지
-      header:
-        logo:
-          image: "/images/logo_3_SHY.png"  # Logo path for Korean language
-          text: ""  # No text, only logo
+    menu:
+      main:
+        - name: 소식
+          url: '#about'
+          weight: 1
+        - name: 사이트
+          url: /
+          weight: 10
+        - name: 자기소개
+          url: /
+          weight: 11
+        - name: 자유게시판
+          url: /
+          weight: 12
+        - name: 뉴스
+          url: /
+          weight: 13
+        - name: 문의
+          url: /
+          weight: 20
+        - name: 로그인
+          url: /
+          weight: 30
+        - name: 위치
+          url: /
+          weight: 40
   en:
     languageCode: en-us
-    contentDir: /en/
+    contentDir: content/en
     weight: 2
-    title: Ha-youn Shin's Portfolio
+    logo:
+      image: "assets/images/logo_3_SHY.png"  # 영어 사이트 로고 경로
+      text: ""  # 텍스트 대신 로고만 사용
     params:
       description: Ha-youn Shin's portfolio page
-      header:
-        logo:
-          image: "/images/logo_3_SHY.png"  # Logo path for English language
-          text: ""  # No text, only logo
-removePathAccents: true
+    menu:
+      main:
+        - name: 소개
+          url: '#about'
+          weight: 1
+        - name: Bio
+          url: /
+          weight: 10
+        - name: Papers
+          url: /#papers
+          weight: 11
+        - name: Talks
+          url: /#talks
+          weight: 12
+        - name: News
+          url: /#news
+          weight: 13
+        - name: Experience
+          url: experience/
+          weight: 20
+        - name: Projects
+          url: projects/
+          weight: 30
+        - name: Teaching
+          url: teaching/
+          weight: 40
+        - name: Language
+          weight: 30
+          url: '#'  # 언어 전환 메뉴
+          children:
+            - name: 한국어
+              url: /ko/  # 한국어로 전환
+              weight: 1
+            - name: English
+              url: /en/  # 영어로 전환
+              weight: 2
 
 ############################
 ## APPEARANCE
@@ -93,10 +151,10 @@ header:
     fixed_to_top: true
     show_day_night: true
     show_search: true
-    highlight_active_lin1k: true
+    highlight_active_link: true
     logo:
-      image: "/assets/images/logo_3_SHY.png"
-      text: ""
+      image: "/assets/images/logo_3_SHY.png"  # 이미지 경로를 정확히 설정
+      text: ""  # 텍스트 대신 로고만 사용
 
 ############################
 ## SITE FOOTER
