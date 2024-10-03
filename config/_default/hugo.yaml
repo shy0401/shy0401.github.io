@@ -44,20 +44,15 @@ languages:
           weight: 1
         - name: 구성원
           url: people
-          weight: 11
-
-        - name: People
-          url: people
           weight: 150
-        - parent: People
-          name: Professor
-          url: /author/admin/
+        - parent: 구성원
+          name: admin
+          url: /author/신하윤/
           weight: 160
         - parent: People
           name: Members
           url: people
           weight: 170
-
         - name: 자유게시판
           url: /
           weight: 12
