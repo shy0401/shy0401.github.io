@@ -8,7 +8,7 @@ last_name: Shin
 
 # Username (this should match the folder name)
 authors:
-  - 신하윤
+  - admin
 
 # Is this the primary user of the site?
 superuser: true
