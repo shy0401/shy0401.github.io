@@ -7,11 +7,14 @@ type: landing
 sections:
   - block: people
     content:
-      title: 자기소개
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+      
+      title: "신하윤"
       user_groups:
-          - Admin
+        - Admin
+      role: "대학생"
+      organizations:
+      - name: "전북대학교 컴퓨터인공지능학부"
+
       sort_by: Params.last_name
       sort_ascending: true
     design:
@@ -22,19 +25,10 @@ sections:
   - block: people
     content:
       title: 고마운 지인들
-      # Choose which groups/teams of users to display.
-      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
+
       user_groups:
         - people
-          # - 박사과정
-          # - 석사과정
-          # - 학부연구생
-          # - Principal Investigators
-          # - Researchers
-          # - Grad Students
-          # - Administration
-          # - Visitors
-          # - Alumni
+
       sort_by: Params.last_name
       sort_ascending: true
     design:
