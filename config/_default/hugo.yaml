@@ -43,7 +43,7 @@ languages:
           url: /
           weight: 1
         - name: 자기소개
-          url: /about
+          url: en/about/
           weight: 11
         - name: 자유게시판
           url: /
@@ -68,7 +68,7 @@ languages:
       description: Ha-youn Shin's portfolio page
     menu:
       main:
-        - name: 소개
+        - name: about
           url: /about
           weight: 1
         - name: Bio
