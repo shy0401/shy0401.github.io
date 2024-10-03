@@ -43,7 +43,7 @@ languages:
           url: /
           weight: 1
         - name: 자기소개
-          url: en/about/
+          url: ko/about/
           weight: 11
         - name: 자유게시판
           url: /
