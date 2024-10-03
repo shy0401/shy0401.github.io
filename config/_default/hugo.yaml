@@ -46,11 +46,11 @@ languages:
           url: people
           weight: 150
         - parent: 구성원
-          name: Admin
+          name: Me
           url: /author/신하윤/
           weight: 160
         - parent: 구성원
-          name: Members
+          name: Acquaintances
           url: people
           weight: 170
         - name: 개발

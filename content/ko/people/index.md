@@ -7,11 +7,11 @@ type: landing
 sections:
   - block: people
     content:
-      title: 구성원
+      title: 자기소개
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-          - Professor
+          - Admin
       sort_by: Params.last_name
       sort_ascending: true
     design:
@@ -21,11 +21,11 @@ sections:
 
   - block: people
     content:
-      title: Student Researchers
+      title: 고마운 지인들
       # Choose which groups/teams of users to display.
       #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-        - Student
+        - people
           # - 박사과정
           # - 석사과정
           # - 학부연구생
