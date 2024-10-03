@@ -40,10 +40,10 @@ languages:
     menu:
       main:
         - name: 소식
-          url: /
+          url: /about/
           weight: 1
         - name: 자기소개
-          url: /about/
+          url: /about/_index.md
           weight: 11
         - name: 자유게시판
           url: /
