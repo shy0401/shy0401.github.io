@@ -53,18 +53,16 @@ languages:
           name: Members
           url: people
           weight: 170
-        - name: 자유게시판
+        - name: 개발
           url: /
           weight: 12
-        - name: 뉴스
+        - name: 경력
           url: /
           weight: 13
-        - name: 문의
+        - name: 위치
           url: contact
           weight: 20
-        - name: 위치
-          url: /
-          weight: 30
+
   en:
     languageCode: en-us
     contentDir: content/en
@@ -175,8 +173,8 @@ footer:
 ############################
 
 locale:
-  date_format: 'Jan 2, 2006'
-  time_format: '3:04 PM'
+  date_format: 'Oct 3, 2024'
+  time_format: '10:04 PM'
 
 ############################
 ## SITE FEATURES
