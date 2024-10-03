@@ -118,16 +118,15 @@ appearance:
 marketing:
   seo:
     site_type: Person
-    local_business_type: ''
-    org_name: ''
-    description: 'The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website.'
-    twitter: 'GetResearchDev'
+    local_business_type: 'portfolio'
+    org_name: '전북대 신하윤'
+    description: '전북대학교 컴퓨터인공지능학부 소속 신하윤의 포트폴리오 및 정보.'
+    twitter: ''
   analytics:
     google_analytics: ''
     baidu_tongji: ''
-    plausible: ''
-    fathom: ''
-    pirsch: ''
+    google_tag_manager: ''
+    microsoft_clarity: ''
   verification:
     google: ''
     baidu: ''
@@ -147,7 +146,7 @@ header:
     show_search: true
     highlight_active_link: true
     logo:
-      image: "/assets/images/logo_3_SHY.png"  # 이미지 경로를 정확히 설정
+      image: "/assets/images/logo_3_SHY.png"
       text: ""  # 텍스트 대신 로고만 사용
 
 ############################
