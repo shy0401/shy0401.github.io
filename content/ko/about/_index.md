@@ -10,7 +10,7 @@ sections:
     content:
       title: <span style="font-size:85%">나(신하윤)를 소개하는 포트폴리오 사이트</span>
       text: <br><span style="font-size:125%">전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 페이지에 오신 것을 환영합니다.</span> <br><br>
-        {{% cta cta_link="./about/portfolio" cta_text="포트폴리오 보기 →" %}}
+        {{% cta cta_link="./portfolio" cta_text="포트폴리오 보기 →" %}}
 
   - block: slider
     content:
