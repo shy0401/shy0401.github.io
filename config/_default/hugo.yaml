@@ -40,13 +40,10 @@ languages:
     menu:
       main:
         - name: 소식
-          url: '#about'
+          url: /
           weight: 1
-        - name: 사이트
-          url: /
-          weight: 10
         - name: 자기소개
-          url: /
+          url: /about
           weight: 11
         - name: 자유게시판
           url: /
@@ -57,12 +54,9 @@ languages:
         - name: 문의
           url: contact
           weight: 20
-        - name: 로그인
-          url: /
-          weight: 30
         - name: 위치
           url: /
-          weight: 40
+          weight: 30
   en:
     languageCode: en-us
     contentDir: content/en
