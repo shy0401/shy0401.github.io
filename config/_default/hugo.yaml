@@ -42,17 +42,6 @@ languages:
         - name: 소개
           url: /about/
           weight: 1
-        - name: 구성원
-          url: people
-          weight: 150
-        - parent: 구성원
-          name: Me
-          url: /author/신하윤/
-          weight: 160
-        - parent: 구성원
-          name: Acquaintances
-          url: people
-          weight: 170
         - name: 개발
           url: /
           weight: 12
@@ -62,6 +51,10 @@ languages:
         - name: 위치
           url: contact
           weight: 20
+
+        - name: 포트폴리오
+          url: people
+          weight: 150
 
   en:
     languageCode: en-us
