@@ -22,14 +22,14 @@ sections:
       css_class: dark
       background:
         color: black
-        # 이미지 배경 제거
-        # image:
-        #   filename: stacked-peaks.svg
-        #   filters:
-        #     brightness: 1.0
-        #   size: cover
-        #   position: center
-        #   parallax: false
+
+        image:
+           filename: stacked-peaks.svg
+           filters:
+             brightness: 1.0
+           size: cover
+           position: center
+           parallax: false
 
   - block: markdown
     content:
