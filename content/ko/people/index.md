@@ -12,7 +12,7 @@ sections:
   - block: about.avatar
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
-      username: 신하윤
+      username: admin
       text: ""
       # Show a call-to-action button under your biography? (optional)
       button:
