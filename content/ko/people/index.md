@@ -7,27 +7,25 @@ type: landing
 sections:
   - block: people
     content:
-      
-      title: "신하윤"
+      title: Me
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-        - Admin
-      role: "대학생"
-      organizations:
-      - name: "전북대학교 컴퓨터인공지능학부"
-
+        - admin
       sort_by: Params.last_name
       sort_ascending: true
     design:
-      show_interests: true
+      show_interests: false
       show_role: true
       show_social: true
 
   - block: people
     content:
-      title: 고마운 지인들
-
+      title: Student Researchers
+      # Choose which groups/teams of users to display.
+      #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
       user_groups:
-        - people
+        - People
 
       sort_by: Params.last_name
       sort_ascending: true
