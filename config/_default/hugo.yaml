@@ -47,9 +47,9 @@ languages:
           weight: 150
         - parent: 구성원
           name: admin
-          url: /author/신하윤/
+          url: /people/신하윤/
           weight: 160
-        - parent: People
+        - parent: 구성원
           name: Members
           url: people
           weight: 170
