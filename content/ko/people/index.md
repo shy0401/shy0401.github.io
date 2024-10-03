@@ -5,7 +5,7 @@ date: 2024-06-11
 type: landing
 
 sections:
-  - block: people
+  - block: authors
     content:
       title: 자기소개
       # Choose which groups/teams of users to display.
