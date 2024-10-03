@@ -42,9 +42,22 @@ languages:
         - name: 소식
           url: /about/
           weight: 1
-        - name: 자기소개
-          url: /about/_index.md
+        - name: 구성원
+          url: people
           weight: 11
+
+        - name: People
+          url: people
+          weight: 150
+        - parent: People
+          name: Professor
+          url: /author/admin/
+          weight: 160
+        - parent: People
+          name: Members
+          url: people
+          weight: 170
+
         - name: 자유게시판
           url: /
           weight: 12
