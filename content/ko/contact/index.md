@@ -10,7 +10,8 @@ sections:
       title: Contact
       text: |-
         <br> <span style="font-size:95%">전북대학교 의료 AI 및 계산 수학 연구실 (Macs)의 학부연구생/석사 position에 관심 있으시면 아래로 연락주시면 감사드리겠습니다.</span> <br>
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.8354345093747!2d144.95373531569234!3d-37.8162797797519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577c6d663cf0e19!2sFlinders+St+Station!5e0!3m2!1sen!2sus!4v1511436229447" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3133.3336544142727!2d127.134454!3d35.846051!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMzXCsDUwJzQ1LjgiTiAxMjfCsDA4JzA0LjAiRQ!5e0!3m2!1sko!2skr!4v1696304446555" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        
       email: ksl(at)jbnu.ac.kr
       phone: +82-63-270-2406
       address:
@@ -21,8 +22,8 @@ sections:
         country: 대한민국
         country_code: KO
       coordinates:
-        latitude: '35.84601324617979'
-        longitude: '127.13444961966684'
+        latitude: '35.846051'
+        longitude: '127.134454'
       directions:
     design:
       columns: '3'
