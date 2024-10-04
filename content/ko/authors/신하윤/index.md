@@ -22,7 +22,7 @@ organizations:
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
 # Short bio (displayed in user profile at end of posts)
-bio: 바이오
+bio: '전북대학교 컴퓨터인공지능학부에서 인공지능 및 개발 분야를 연구하고 있습니다.'
 
 # Interests or specialties
 interests:
@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'yj03320@jbnu.ac.kr'
+    link: 'mailto:ksl@jbnu.ac.kr'
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/white_shy1
@@ -63,15 +63,15 @@ social:
   - icon: globe    # 네이버 블로그의 경우 globe 아이콘을 사용
     icon_pack: fas  # `fas`는 Solid 아이콘 팩
     link: https://blog.naver.com/white_shy
-    
-
-
+  - icon: file-pdf   # CV 다운로드를 위한 PDF 아이콘
+    icon_pack: fas
+    link: /uploads/resume.pdf
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/cv.pdf
+# - icon: file-pdf
+#   icon_pack: fas
+#   link: /uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: 'ksl@jbnu.ac.kr'
@@ -85,5 +85,5 @@ user_groups:
 
 ---
 
-전북대학교 컴퓨터 인공지능학부 신하윤입니다.
+전북대학교 컴퓨터 인공지능학부 신하윤입니다.  
 저는 연합학습 및 표현 학습을 사용한 medical 도메인에서의 딥 러닝 기법, 도메인 적응 및 테스트 타임 학습에 관심이 많으며, 컴퓨터 비전 응용, 이미지 처리 및 의료 응용의 딥 러닝 기반 진단 기술에 대해 연구하고 있습니다.

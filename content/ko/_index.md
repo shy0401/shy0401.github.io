@@ -181,7 +181,6 @@ sections:
         url: https://hugoblox.com/templates/
     design:
       card:
-        # Card background color (CSS class)
         css_class: "bg-primary-700"
         css_style: ""
 ---
