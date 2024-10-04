@@ -20,6 +20,16 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
+<!-- Add the banner section -->
+{{ if .Params.banner }}
+<section class="banner">
+  <img src="{{ .Params.banner.image | relURL }}" alt="{{ .Params.banner.caption }}">
+  {{ with .Params.banner.caption }}
+  <div class="banner-caption">{{ . }}</div>
+  {{ end }}
+</section>
+{{ end }}
+
 <div class="card">
   {{ with $resource }}
   {{ $image := .Resize "550x" }}
@@ -55,11 +65,5 @@
     {{ end }}
 
     <!-- Add the Download CV button here -->
-    <div class="download-btn">
-      <a href="/uploads/resume.pdf" class="btn btn-primary" download>
-        <i class="fas fa-file-pdf"></i> Download CV
-      </a>
-    </div>
   </div>
 </div>
-
