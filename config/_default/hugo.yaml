@@ -48,16 +48,18 @@ languages:
           weight: 12
         - parent: 개발
           name: 파이썬
-          url: python
+          url: coding/python
           weight: 121
         - parent: 개발
           name: C++
-          url: C++
+          url: coding/C++
           weight: 122
 
-        - name: 경력
+        - name: 취미
           url: /
-          weight: 13
+          weight: 130
+
+
         - name: 위치
           url: contact
           weight: 20
