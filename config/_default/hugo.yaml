@@ -42,9 +42,19 @@ languages:
         - name: 소개
           url: /about/
           weight: 1
+
         - name: 개발
-          url: /
+          url: post
           weight: 12
+        - parent: 개발
+          name: 파이썬
+          url: python
+          weight: 121
+        - parent: 개발
+          name: C++
+          url: C++
+          weight: 122
+
         - name: 경력
           url: /
           weight: 13
