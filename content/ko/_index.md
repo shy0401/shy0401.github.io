@@ -10,14 +10,18 @@ design:
 sections:
   - block: about.avatar
     content:
-      username: TEST
+      
+      username: 신하윤
+      text: ""
+      
       button:
         text: Download CV
-        url: /uploads/resume.pdf
+        url: uploads/resume.pdf
     design:
       css_class: dark
       background: 
         color: black
+        
         image:
           filename: stacked-peaks.svg
           filters:

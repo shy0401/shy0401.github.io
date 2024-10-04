@@ -5,16 +5,15 @@ date: 2022-10-24
 type: landing
 
 design:
-  # Default section spacing
   spacing: "6rem"
 
 sections:
   - block: about.avatar
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
+
       username: 신하윤
       text: ""
-      # Show a call-to-action button under your biography? (optional)
+
       button:
         text: Download CV
         url: uploads/resume.pdf
@@ -36,7 +35,7 @@ sections:
       title: '📚 My Research'
       subtitle: ''
       text: |-
-            포트폴리오에 대한 상세한 설명!!
+            포트폴리오 테스트!!!
     design:
       columns: '1'
 
