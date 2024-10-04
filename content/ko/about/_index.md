@@ -4,6 +4,10 @@ title:
 date: 2024-03-25
 type: landing
 
+banner:
+  caption: ''
+  image: 'JBNU.jpg'
+
 sections:
 
   - block: features
