@@ -51,8 +51,8 @@ languages:
           url: coding/python
           weight: 121
         - parent: 개발
-          name: C++
-          url: coding/C++
+          name: C
+          url: coding/C
           weight: 122
 
         - name: 취미
