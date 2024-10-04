@@ -47,13 +47,13 @@ languages:
           url: coding
           weight: 110
         - parent: 개발
-          name: C
+          name: 자바
           url: coding/java
-          weight: 111
+          weight: 115
         - parent: 개발
           name: 파이썬
           url: coding/python
-          weight: 112
+          weight: 119
 
 
         - name: 취미
