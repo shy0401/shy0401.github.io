@@ -41,40 +41,40 @@ languages:
       main:
         - name: 소개
           url: /about/
-          weight: 1
+          weight: 100
 
         - name: 개발
           url: coding
-          weight: 120
+          weight: 110
         - parent: 개발
           name: 파이썬
           url: coding/python
-          weight: 121
+          weight: 111
         - parent: 개발
           name: C
           url: coding/java
-          weight: 122
+          weight: 112
 
         - name: 취미
           url: /hobby
-          weight: 130
+          weight: 120
         - parent: 취미
           name: 자바
           url: hobby/js
-          weight: 131
+          weight: 121
         - parent: 취미
           name: 파이썬
           url: hobby/python
-          weight: 132
+          weight: 122
 
 
         - name: 위치
           url: contact
-          weight: 20
+          weight: 300
 
         - name: 포트폴리오
           url: people
-          weight: 150
+          weight: 310
 
 
   en:
