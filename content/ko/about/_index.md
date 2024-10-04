@@ -4,10 +4,6 @@ title:
 date: 2024-03-25
 type: landing
 
-banner:
-  caption: ''
-  image: 'JBNU.jpg'
-
 sections:
 
   - block: features
@@ -15,11 +11,13 @@ sections:
       title: <span style="font-size:85%">나(신하윤)를 소개하는 포트폴리오 사이트</span>
       text: <br><span style="font-size:125%">전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="./portfolio" cta_text="포트폴리오 보기 →" %}}
+    design:
+      background:
+        color: '#e0f7fa'  # 배경 색상 변경
 
   - block: slider
     content:
       slides:
-
         - title: <span style="font-size:70%">정보보안</span>
           content: <span style="font-size:70%">중요해지고 있는 정보보안 및 사이버 보안</span>
           align: center
@@ -70,13 +68,14 @@ sections:
             position: center
             color: '#bd4646'
 
-
     design:
       slide_height: '350px'
       slide_width: '100px'
       is_fullscreen: false
       loop: true
       interval: 3000
+      background:
+        color: '#fafafa'  # 슬라이더 배경 색상
 
   - block: features
     id: features
@@ -110,6 +109,10 @@ sections:
           icon_pack: fab
           description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
 
+    design:
+      background:
+        color: '#ffffff'  # 배경 색상
+
   - block: markdown
     content:
       title:
@@ -118,6 +121,8 @@ sections:
         {{% cta cta_link="./contact/" cta_text="Join team →" %}}
     design:
       columns: '1'
+      background:
+        color: '#e0e0e0'  # 배경 색상 추가
 
   - block: about.avatar
     content:
@@ -157,5 +162,6 @@ sections:
     design:
       columns: '1'
       view: masonry
-
+      background:
+        color: '#f4f4f4'  # 포트폴리오 섹션 배경 색상
 ---
