@@ -40,179 +40,78 @@ sections:
         
         Please reach out to collaborate 😃
     design:
-      columns: '1'
-      
-  - block: collection
-    content:
-      id: section-1
-      title: Notifications & News
-      subtitle:
-      text:
-      count: 3
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - notification
-          - post
-          - event
-    design:
-      view: community/custom_card
       columns: '2'
-
+      
   - block: slider
     content:
       slides:
-        - title: <span style="font-size:70%">Recruit</span>
-          content: |
-            <div class="card">
-              <a href="contact" class="card-image hover-overlay">
-                <img src="/images/recruitment.jpg" alt="Recruitment Image" class="img-responsive" loading="lazy" style="margin-top: 15px;">
-              </a>
-              <div class="card-text">
-                <div class="section-subheading article-title mb-1 mt-3">
-                  <h4><a href="contact" target="_blank">Join Us</a></h4>
-                </div>
-                <div class="article-style">
-                  <p>Interested in MacsLAB? We’re recruiting!</p>
-                </div>
-              </div>
-            </div>
+
+        - title: <span style="font-size:70%">정보보안</span>
+          content: <span style="font-size:70%">중요해지고 있는 정보보안 및 사이버 보안</span>
           align: center
           background:
             image:
-              filename: recruitment.jpg
+              filename: security1.jpg
               filters:
                 brightness: 0.4
             position: center
-            color: '#000'
+            color: '#1dc6f5'
+          link:
+            icon: user
+            icon_pack: fas
+            text: <span style="font-size:60%">Join Us</span>
+            text-color: '#154ed4'
+            url: contact
 
         - title: <span style="font-size:70%">AI</span>
-          content: |
-            <div class="card">
-              <a href="AI" class="card-image hover-overlay">
-                <img src="/images/Ai.jpg" alt="AI Development Image" class="img-responsive" loading="lazy" style="margin-top: 15px;">
-              </a>
-              <div class="card-text">
-                <div class="section-subheading article-title mb-1 mt-3">
-                  <h4><a href="AI" target="_blank">AI Development</a></h4>
-                </div>
-                <div class="article-style">
-                  <p>Explore AI solutions for various specialized fields like Healthcare and Aerospace.</p>
-                </div>
-              </div>
-            </div>
+          content: <span style="font-size:70%">비전/데이터마이닝 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
           align: center
           background:
             image:
-              filename: Ai.jpg
+              filename: Ai1.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.5
             position: center
-            color: '#000'
+            color: '#d346e3'
 
-        - title: <span style="font-size:70%">Healthcare</span>
-          content: |
-            <div class="card">
-              <a href="healthcare" class="card-image hover-overlay">
-                <img src="/images/healthcare.jpg" alt="Healthcare Development Image" class="img-responsive" loading="lazy" style="margin-top: 15px;">
-              </a>
-              <div class="card-text">
-                <div class="section-subheading article-title mb-1 mt-3">
-                  <h4><a href="healthcare" target="_blank">Healthcare Development</a></h4>
-                </div>
-                <div class="article-style">
-                  <p>Develop AI solutions applicable in Healthcare and Medical fields.</p>
-                </div>
-              </div>
-            </div>
+        - title: <span style="font-size:70%">디지털포렌식</span>
+          content: <span style="font-size:70%">사이버수사대 디지털포렌식 중요도 증가</span>
           align: center
           background:
             image:
-              filename: healthcare.jpg
+              filename: forensic.jpg
               filters:
-                brightness: 0.4
+                brightness: 0.3
             position: center
-            color: '#000'
+            color: '#7986ba'
 
-        - title: <span style="font-size:70%">Mathematics</span>
-          content: |
-            <div class="card">
-              <a href="mathematics" class="card-image hover-overlay">
-                <img src="/images/mathematics.jpg" alt="Mathematics Research Image" class="img-responsive" loading="lazy" style="margin-top: 15px;">
-              </a>
-              <div class="card-text">
-                <div class="section-subheading article-title mb-1 mt-3">
-                  <h4><a href="mathematics" target="_blank">Mathematics Research</a></h4>
-                </div>
-                <div class="article-style">
-                  <p>Research mathematical theories and optimization models for AI.</p>
-                </div>
-              </div>
-            </div>
+        - title: <span style="font-size:70%">Math</span>
+          content: <span style="font-size:70%">데이터마이닝 및 AI 활용 수학 연구</span>
           align: center
           background:
             image:
-              filename: mathematics.jpg
+              filename: mathematics1.jpg
               filters:
                 brightness: 0.4
             position: center
-            color: '#000'
+            color: '#bd4646'
 
-        - title: <span style="font-size:70%">Development</span>
-          content: |
-            <div class="card">
-              <a href="development" class="card-image hover-overlay">
-                <img src="/images/development.jpg" alt="Development Image" class="img-responsive" loading="lazy" style="margin-top: 15px;">
-              </a>
-              <div class="card-text">
-                <div class="section-subheading article-title mb-1 mt-3">
-                  <h4><a href="development" target="_blank">Full-Stack Development</a></h4>
-                </div>
-                <div class="article-style">
-                  <p>Leverage cutting-edge technologies to build full-stack applications.</p>
-                </div>
-              </div>
-            </div>
-          align: center
-          background:
-            image:
-              filename: development.jpg
-              filters:
-                brightness: 0.4
-            position: center
-            color: '#000'
 
     design:
+      # Slide height is automatic unless you force a specific height (e.g. '400px')
       slide_height: '350px'
-      slide_width: '100%'
+      slide_width: '100px'
       is_fullscreen: false
+      # Automatically transition through slides?
       loop: true
-      interval: 3000      
+      # Duration of transition between slides (in ms)
+      interval: 3000
+
 
   - block: collection
     content:
-      id: section-2
-      title: Notifications & News
-      subtitle: ''
-      text: ''
-      count: 3 
-      offset: 0
-      order: desc
-      filters:
-        folders:
-          - notification
-          - post
-          - event
-    design:
-      view: community/custom_card
-      columns:
-
-      
-  - block: collection
-    content:
-      id: section-3
-      title: Notifications & News
+      id: section-1
+      title: 섹션1
       subtitle:
       text:
       count: 3
@@ -226,37 +125,43 @@ sections:
     design:
       view: community/custom_card
       columns: '3'
-      
 
   - block: collection
     content:
-      id: news
-      title: Recent News
+      id: section-2
+      title: 섹션2
       subtitle: ''
       text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: post_
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
-      # Choose how many pages you would like to offset by
+      count: 3 
       offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
       order: desc
+      filters:
+        folders:
+          - notification
+          - post
+          - event
     design:
-      # Choose a layout view
-      view: date-title-summary
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: community/custom_card
+      columns: '3'
+
+      
+  - block: collection
+    content:
+      id: section-3
+      title: 섹션3
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - notification
+          - post
+          - event
+    design:
+      view: community/custom_card
+      columns: '3'
         
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
