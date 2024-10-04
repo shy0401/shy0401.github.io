@@ -39,27 +39,22 @@ sections:
       columns: '1'
 
   - block: collection
-    id: project
     content:
-      title: 나의 프로젝트들
-      subtitle: ''
-      text: ''
-      page_type: post
-      count: 5
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+      id: section-1
+      title: 섹션1
+      subtitle:
+      text:
+      count: 3
       offset: 0
       order: desc
+      filters:
+        folders:
+          - notification
+          - post
+          - event
     design:
-      view: date-title-summary
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: community/custom_card
+      columns: '3'
 
   - block: collection
     id: contest
