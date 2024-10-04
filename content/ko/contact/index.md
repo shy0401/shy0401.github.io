@@ -1,9 +1,11 @@
 ---
 title: Contact
-date: 2022-10-24
-
+view: community/custom_card
 type: landing
-
+banner:
+  caption: ''
+  image: 'jbnu.jpg'
+  
 sections:
   - block: about.avatar
     content:
@@ -13,7 +15,7 @@ sections:
 
       button:
         text: Download CV
-        url: uploads/resume.pdf
+        url: uploads/OOP.pdf
     design:
       css_class: dark
       background:
