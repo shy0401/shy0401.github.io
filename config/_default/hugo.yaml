@@ -44,17 +44,15 @@ languages:
           weight: 100
 
         - name: 개발
-          url: coding
+          url: /coding/
           weight: 110
-        - children: 개발
-          name: 자바
-          url: coding/java
-          weight: 115
-        - children: 개발
-          name: 파이썬
-          url: coding/python
-          weight: 119
-
+          children:
+            - name: 자바
+              url: /coding/java/
+              weight: 112
+            - name: 파이썬
+              url: /coding/python/
+              weight: 114
 
         - name: 취미
           url: /hobby
