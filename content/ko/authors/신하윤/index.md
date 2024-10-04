@@ -57,9 +57,15 @@ social:
   - icon: github
     icon_pack: fab
     link: https://github.com/shy0401
+  - icon: dropbox
+    icon_pack: fab
+    link: https://www.dropbox.com/scl/fi/7sb3yv1f93aqvhlqso84w/2-1.pdf?rlkey=86y92qol5p70utebemfz4qwwk&st=ppk6wk5p&dl=0
   - icon: globe    # 네이버 블로그의 경우 globe 아이콘을 사용
     icon_pack: fas  # `fas`는 Solid 아이콘 팩
     link: https://blog.naver.com/white_shy
+    
+
+
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
