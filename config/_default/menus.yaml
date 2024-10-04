@@ -1,9 +1,9 @@
 menu:
   main:
-    # 한국어 메뉴 설정
     - name: 소개
       url: /about
       weight: 100
+
     - name: 개발
       url: /coding/
       weight: 110
@@ -14,6 +14,7 @@ menu:
         - name: 파이썬
           url: /coding/python/
           weight: 114
+
     - name: 취미
       url: /hobby
       weight: 120
@@ -24,14 +25,16 @@ menu:
         - name: 파이썬
           url: /hobby/python
           weight: 122
+
     - name: 위치
       url: /contact
       weight: 300
+
     - name: 포트폴리오
       url: /people
       weight: 310
 
-    # 영어 메뉴 설정
+    # 영어 페이지 메뉴 설정
     - name: about
       url: /about
       weight: 1
