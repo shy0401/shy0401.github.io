@@ -1,63 +1,89 @@
-menus:
+defaultContentLanguage: ko
+defaultContentLanguageInSubdir: true  # 기본 언어도 하위 디렉터리를 사용
+hasCJKLanguage: true
+removePathAccents: true
+
+languages:
   ko:
-    main:
-      - name: 소개
-        url: /about
-        weight: 100
+    languageCode: ko
+    contentDir: content/ko
+    weight: 1
+    params:
+      description: 신하윤의 포트폴리오 페이지
+      logo:
+        image: "assets/images/logo_3_SHY.png"  # 한국어 사이트 로고 경로
+        text: ""
+    menu:
+      main:
+        - name: 소개
+          url: about
+          weight: 100
 
-      - name: 개발
-        url: /coding/
-        weight: 110
-        children:
-          - name: 자바
-            url: /coding/java/
-            weight: 112
-          - name: 파이썬
-            url: /coding/python/
-            weight: 114
+        - name: 개발
+          url: /coding/
+          weight: 110
+          children:
+            - name: 자바
+              url: /coding/java/
+              weight: 112
+            - name: 파이썬
+              url: /coding/python/
+              weight: 114
 
-      - name: 취미
-        url: /hobby
-        weight: 120
-        children:
-          - name: 자바
-            url: /hobby/js
-            weight: 121
-          - name: 파이썬
-            url: /hobby/python
-            weight: 122
+        - name: 취미
+          url: /hobby
+          weight: 120
+        - parent: 취미
+          name: 자바
+          url: hobby/js
+          weight: 121
+        - parent: 취미
+          name: 파이썬
+          url: hobby/python
+          weight: 122
 
-      - name: 위치
-        url: /contact
-        weight: 300
 
-      - name: 포트폴리오
-        url: /people
-        weight: 310
+        - name: 위치
+          url: contact
+          weight: 300
+
+        - name: 포트폴리오
+          url: people
+          weight: 310
+
 
   en:
-    main:
-      - name: about
-        url: /about
-        weight: 1
-      - name: Bio
-        url: /
-        weight: 10
-      - name: Papers
-        url: /#papers
-        weight: 11
-      - name: Talks
-        url: /#talks
-        weight: 12
-      - name: News
-        url: /#news
-        weight: 13
-      - name: Experience
-        url: /experience/
-        weight: 20
-      - name: Projects
-        url: /projects/
-        weight: 30
-      - name: Teaching
-        url: /teaching/
-        weight: 40
+    languageCode: en-us
+    contentDir: content/en
+    weight: 2
+    params:
+      description: Ha-youn Shin's portfolio page
+      logo:
+        image: "assets/images/logo_3_SHY.png"  # 영어 사이트 로고 경로
+        text: ""
+    menu:
+      main:
+        - name: about
+          url: /about
+          weight: 1
+        - name: Bio
+          url: /
+          weight: 10
+        - name: Papers
+          url: /#papers
+          weight: 11
+        - name: Talks
+          url: /#talks
+          weight: 12
+        - name: News
+          url: /#news
+          weight: 13
+        - name: Experience
+          url: experience/
+          weight: 20
+        - name: Projects
+          url: projects/
+          weight: 30
+        - name: Teaching
+          url: teaching/
+          weight: 40
