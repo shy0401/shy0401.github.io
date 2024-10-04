@@ -44,8 +44,8 @@ languages:
           weight: 1
 
         - name: 개발
-          url: post
-          weight: 12
+          url: coding
+          weight: 120
         - parent: 개발
           name: 파이썬
           url: coding/python
