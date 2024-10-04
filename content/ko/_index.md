@@ -11,8 +11,6 @@ sections:
   - block: about.avatar
     content:
       username: 신하윤
-      text: ""
-
       button:
         text: "Download CV"
         url: /uploads/resume.pdf
@@ -21,7 +19,6 @@ sections:
       background: 
         color: black
         image:
-
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
