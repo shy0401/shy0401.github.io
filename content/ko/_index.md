@@ -1,36 +1,27 @@
 ---
 # Leave the homepage title empty to use the site title
-title: People
-date: 2024-03-25
+title: ""
+date: 2022-10-24
 type: landing
 
-sections:
-  - block: collection
-    id: people_list
-    content:
-      title: "People"
-      subtitle: "Meet our talented individuals"
-      filters:
-        folders:
-          - people  # authors 폴더에서 사람들 목록을 가져옴
-      design:
-        view: list
-        columns: '3'
+design:
+  spacing: "6rem"
 
+sections:
   - block: about.avatar
     content:
-      # Choose a user profile to display (a folder name within `content/authors/`)
-      username: 신하윤  # 신하윤 프로필 정보 가져오기
-      text: "전북대학교 컴퓨터 인공지능학부 신하윤입니다."
-      # Show a call-to-action button under your biography
+      username: 신하윤
+      text: ""
+
       button:
-        text: Download CV
-        url: /uploads/resume.pdf  # Resume 파일 경로 설정
+        text: "Download CV"
+        url: /uploads/resume.pdf
     design:
       css_class: dark
-      background:
+      background: 
         color: black
         image:
+
           filename: stacked-peaks.svg
           filters:
             brightness: 1.0
