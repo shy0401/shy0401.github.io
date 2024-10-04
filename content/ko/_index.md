@@ -41,17 +41,24 @@ sections:
         Please reach out to collaborate 😃
     design:
       columns: '1'
+      
   - block: collection
-    id: papers
     content:
-      title: Featured Publications
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
       filters:
         folders:
-          - publication
-        featured_only: true
+          - notification
+          - post
+          - event
     design:
-      view: article-grid
-      columns: 2
+      view: community/custom_card
+      columns: '2'
 
   - block: slider
     content:
@@ -185,24 +192,41 @@ sections:
 
   - block: collection
     content:
-      title: Recent Publications
-      text: ""
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
       filters:
         folders:
-          - publication
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
+          - notification
+          - post
           - event
     design:
-      view: article-grid
-      columns: 1
+      view: community/custom_card
+      columns: '2'
+      
+  - block: collection
+    content:
+      id: section-1
+      title: Notifications & News
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - notification
+          - post
+          - event
+    design:
+      view: community/custom_card
+      columns: '2'
+      
+
   - block: collection
     id: news
     content:
