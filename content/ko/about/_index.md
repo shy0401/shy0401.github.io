@@ -16,12 +16,12 @@ sections:
     content:
       slides:
 
-      - title: <span style="font-size:70%">Recruit</span>
-        content: <span style="font-size:70%">Interested in MacsLAB?</span>
+      - title: <span style="font-size:70%">정보보안</span>
+        content: <span style="font-size:70%">중요해지고 있는 정보보안 및 사이버 보안</span>
         align: center
         background:
           image:
-            filename: recruitment.jpg
+            filename: security.jpg
             filters:
               brightness: 0.4
           position: center
