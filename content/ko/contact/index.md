@@ -4,8 +4,7 @@ view: community/custom_card
 type: landing
 banner:
   caption: ''
-  image: 'jbnu.jpg'
-  
+  image: '전북대.jpg'
 sections:
   - block: about.avatar
     content:
@@ -15,7 +14,7 @@ sections:
 
       button:
         text: Download CV
-        url: uploads/OOP.pdf
+        url: uploads/resume.pdf
     design:
       css_class: dark
       background:
