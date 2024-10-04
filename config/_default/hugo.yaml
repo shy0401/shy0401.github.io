@@ -57,7 +57,7 @@ languages:
           weight: 150
 
         - name: Language
-          weight: 30
+          weight: 300
           url: '#'  # 언어 전환 메뉴
           children:
             - name: 한국어
@@ -102,8 +102,9 @@ languages:
         - name: Teaching
           url: teaching/
           weight: 40
+
         - name: Language
-          weight: 30
+          weight: 300
           url: '#'  # 언어 전환 메뉴
           children:
             - name: 한국어
