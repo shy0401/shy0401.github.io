@@ -6,14 +6,17 @@ $card-border-radius: 15px;
 $max-width-container: 880px;
 $avatar-max-size: 225px;
 $avatar-max-size-about: 200px;
-$button-bg: #3498db; // 기본 버튼 배경색 (예시)
-$button-hover-bg: #2980b9; // 버튼 호버 시 배경색 (예시)
-$button-text-color: #fff; // 기본 텍스트 색상
-$button-hover-text-color: #ecf0f1; // 호버 시 텍스트 색상
+$button-bg: #3498db;
+$button-hover-bg: #2980b9;
+$button-text-color: #fff;
+$button-hover-text-color: #ecf0f1;
+$transition-duration: 0.3s;
+$transition-ease: ease;
 
 // Body 배경 설정
 body {
   background-color: $bg-light;
+  transition: background-color $transition-duration $transition-ease;
 }
 
 .dark body {
@@ -24,6 +27,7 @@ body {
 .article-container {
   background-color: #fff;
   border-radius: $card-border-radius;
+  transition: background-color $transition-duration $transition-ease;
 }
 
 .dark .article-container {
@@ -33,6 +37,7 @@ body {
 // Custom Footer Color
 .page-footer {
   background-color: $bg-light;
+  transition: background-color $transition-duration $transition-ease;
 }
 
 .dark .page-footer {
@@ -43,20 +48,22 @@ body {
 .card-simple {
   margin-top: 1.8rem;
   border-radius: $card-border-radius;
+  transition: background-color $transition-duration $transition-ease;
 }
 
 .dark .card-simple {
-  background: $bg-dark;
+  background-color: $bg-dark;
 }
 
 // Navbar의 그림자 제거
 .navbar {
-  box-shadow: none !important; // 'important'로 모든 모드에서 그림자 제거
+  box-shadow: none !important;
 }
 
 // 홈 섹션 패딩 설정
 .home-section {
   padding: 1rem 0;
+  transition: padding $transition-duration $transition-ease;
 
   &.wg-about-avatar {
     padding: 0;
@@ -78,7 +85,7 @@ body {
 }
 
 // 반응형 설정
-@media (min-width: 1200px), (min-width: 992px) {
+@media (min-width: 992px) {
   .home-section .container {
     max-width: $max-width-container;
   }
@@ -90,12 +97,11 @@ body {
   height: auto;
   max-width: $avatar-max-size;
   max-height: $avatar-max-size;
+  transition: max-width $transition-duration $transition-ease, max-height $transition-duration $transition-ease;
 }
 
 // About 페이지의 Avatar 크기 설정
 .wg-about .avatar {
-  width: auto;
-  height: auto;
   max-width: $avatar-max-size-about;
   max-height: $avatar-max-size-about;
 }
@@ -104,23 +110,28 @@ body {
 .wg-about .portrait-title {
   h2 {
     font-size: 1rem;
+    transition: font-size $transition-duration $transition-ease;
   }
 
   h3 {
     font-size: 0.8rem;
+    transition: font-size $transition-duration $transition-ease;
   }
 }
 
 // Dark mode의 텍스트 색상 설정
 .dark .portrait-title {
+  h2, h3 {
+    font-weight: bold;
+    transition: color $transition-duration $transition-ease;
+  }
+
   h2 {
     color: #fff;
-    font-weight: bold;
   }
 
   h3 {
     color: rgba(255, 255, 255, 0.9);
-    font-weight: bold;
   }
 }
 
@@ -141,7 +152,7 @@ button {
   padding: 0.8rem 1.5rem;
   border-radius: $card-border-radius;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
+  transition: background-color $transition-duration $transition-ease, color $transition-duration $transition-ease;
 
   &:hover {
     background-color: $button-hover-bg;
@@ -156,5 +167,26 @@ button {
   &:hover {
     background-color: lighten($bg-dark, 10%);
     color: $button-hover-text-color;
+  }
+}
+
+// 반응형 설정 (모바일, 태블릿 대응)
+@media (max-width: 768px) {
+  .home-section .content {
+    width: auto;
+    padding: 0 2rem;
+  }
+
+  .avatar {
+    max-width: 150px;
+    max-height: 150px;
+  }
+
+  .wg-about .portrait-title h2 {
+    font-size: 0.9rem;
+  }
+
+  .wg-about .portrait-title h3 {
+    font-size: 0.7rem;
   }
 }
