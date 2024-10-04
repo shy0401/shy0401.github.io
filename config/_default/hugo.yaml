@@ -58,10 +58,12 @@ languages:
         - name: 취미
           url: /hobby
           weight: 130
-        - name: 취미
+        - parent: 취미
+          name: 자바
           url: hobby/js
           weight: 131
-        - name: 취미
+        - parent: 취미
+          name: 파이썬
           url: hobby/python
           weight: 132
 
