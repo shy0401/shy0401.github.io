@@ -13,7 +13,7 @@ sections:
         {{% cta cta_link="./portfolio" cta_text="포트폴리오 보기 →" %}}
     design:
       background:
-        color: '#4dc961'  # 배경 색상
+        color: '#6b6a99'  # 배경 색상
 
   - block: slider
     content:
@@ -75,7 +75,7 @@ sections:
       loop: true
       interval: 3000
       background:
-        color: '#4dc961'  # 슬라이더 배경 색상
+        color: '#6b6a99'  # 슬라이더 배경 색상
 
   - block: features
     id: features
@@ -111,7 +111,7 @@ sections:
 
     design:
       background:
-        color: '#4dc961'  # 배경 색상
+        color: '#6b6a99'  # 배경 색상
 
   - block: markdown
     content:
@@ -122,7 +122,7 @@ sections:
     design:
       columns: '1'
       background:
-        color: '#4dc961'  # 배경 색상 추가
+        color: '#6b6a99'  # 배경 색상 추가
 
   - block: about.avatar
     content:
@@ -134,7 +134,7 @@ sections:
     design:
       css_class: dark
       background:
-        color: '#4dc961'  # 아바타 배경
+        color: '#6b6a99'  # 아바타 배경
         image:
           filename: stacked-peaks.svg
           filters:
@@ -163,5 +163,5 @@ sections:
       columns: '1'
       view: masonry
       background:
-        color: '#4dc961'  # 포트폴리오 섹션 배경 색상
+        color: '#6b6a99'  # 포트폴리오 섹션 배경 색상
 ---
