@@ -5,6 +5,14 @@ removePathAccents: true
 
 languages:
   ko:
+    languageCode: ko
+    contentDir: content/ko
+    weight: 1
+    params:
+      description: 신하윤의 포트폴리오 페이지
+      logo:
+        image: "assets/images/logo_3_SHY.png"  # 한국어 사이트 로고 경로
+        text: ""
     menu:
       main:
         - name: 소개
@@ -45,6 +53,14 @@ languages:
 
 
   en:
+    languageCode: en-us
+    contentDir: content/en
+    weight: 2
+    params:
+      description: Ha-youn Shin's portfolio page
+      logo:
+        image: "assets/images/logo_3_SHY.png"  # 영어 사이트 로고 경로
+        text: ""
     menu:
       main:
         - name: about
@@ -70,4 +86,3 @@ languages:
           weight: 30
         - name: Teaching
           url: teaching/
-          weight: 40
