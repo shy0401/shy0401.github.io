@@ -5,6 +5,28 @@ date: 2022-10-24
 type: landing
 
 sections:
+  - block: about.avatar
+    content:
+
+      username: 신하윤
+      text: ""
+
+      button:
+        text: Download CV
+        url: uploads/resume.pdf
+    design:
+      css_class: dark
+      background:
+        color: black
+
+        image:
+          filename: stacked-peaks.svg
+          filters:
+            brightness: 1.0
+          size: cover
+          position: center
+          parallax: false
+
   - block: contact
     content:
       title: Contact
