@@ -10,9 +10,9 @@ design:
 sections:
   - block: about.avatar
     content:
-      username: 신하윤
+      username: TEST
       button:
-        text: "Download CV"
+        text: Download CV
         url: /uploads/resume.pdf
     design:
       css_class: dark
