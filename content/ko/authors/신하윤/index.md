@@ -60,10 +60,10 @@ social:
   - icon: dropbox
     icon_pack: fab
     link: https://www.dropbox.com/scl/fi/7sb3yv1f93aqvhlqso84w/2-1.pdf?rlkey=86y92qol5p70utebemfz4qwwk&st=ppk6wk5p&dl=0
-  - icon: globe    # 네이버 블로그의 경우 globe 아이콘을 사용
-    icon_pack: fas  # `fas`는 Solid 아이콘 팩
+  - icon: globe    # 네이버 블로그 링크를 위한 globe 아이콘
+    icon_pack: fas
     link: https://blog.naver.com/white_shy
-  - icon: file-pdf   # CV 다운로드를 위한 PDF 아이콘
+  - icon: file-pdf   # PDF 다운로드를 위한 아이콘
     icon_pack: fas
     link: /uploads/resume.pdf
 
@@ -74,7 +74,7 @@ social:
 #   link: /uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: 'ksl@jbnu.ac.kr'
+email: 'yj03320@jbnu.ac.kr'
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
@@ -83,7 +83,13 @@ highlight_name: true
 user_groups:
   - people
 
+# SEO 추가 (검색 엔진 최적화)
+seo_title: "신하윤 전북대학교 컴퓨터인공지능학부"
+seo_description: "전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오. 인공지능, 개발, 사이버 수사 & 디지털포렌식 분야를 연구 중입니다."
+seo_keywords: "인공지능, 개발, 디지털포렌식, 전북대학교, 신하윤, 컴퓨터인공지능"
 ---
 
 전북대학교 컴퓨터 인공지능학부 신하윤입니다.  
-저는 AI와 관련된 데이터마이닝, 딥러닝 등을 공부하였습니다. 현재는 디지털포렌식 및 정보보안 관련 자격증을 공부하고 있으며 아래 화면에 지금까지 진행했던 프로젝트 등이 있습니다.
+저는 AI와 관련된 데이터마이닝, 딥러닝 등을 공부하였습니다.  
+현재는 디지털포렌식 및 정보보안 관련 자격증을 공부하고 있으며,  
+아래 화면에 지금까지 진행했던 프로젝트 등이 있습니다.
