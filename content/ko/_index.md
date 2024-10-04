@@ -194,9 +194,9 @@ sections:
     content:
       id: section-1
       title: Notifications & News
-      subtitle:
-      text:
-      count: 3
+      subtitle: ''
+      text: ''
+      count: 3 
       offset: 0
       order: desc
       filters:
@@ -206,11 +206,12 @@ sections:
           - event
     design:
       view: community/custom_card
-      columns: '2'
+      columns:
+
       
   - block: collection
     content:
-      id: section-1
+      id: section-2
       title: Notifications & News
       subtitle:
       text:
