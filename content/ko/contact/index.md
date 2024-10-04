@@ -1,7 +1,7 @@
 ---
 title: Contact
 view: community/custom_card
-type: landing
+
 banner:
   caption: ''
   image: '전북대.jpg'
