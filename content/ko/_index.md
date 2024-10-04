@@ -192,7 +192,7 @@ sections:
 
   - block: collection
     content:
-      id: section-1
+      id: section-2
       title: Notifications & News
       subtitle: ''
       text: ''
@@ -211,7 +211,7 @@ sections:
       
   - block: collection
     content:
-      id: section-2
+      id: section-3
       title: Notifications & News
       subtitle:
       text:
@@ -229,13 +229,13 @@ sections:
       
 
   - block: collection
-    id: news
     content:
+      id: news
       title: Recent News
       subtitle: ''
       text: ''
       # Page type to display. E.g. post, talk, publication...
-      page_type: post
+      page_type: post_
       # Choose how many pages you would like to display (0 = all pages)
       count: 5
       # Filter on criteria
@@ -257,6 +257,7 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+        
   - block: cta-card
     demo: true # Only display this section in the Hugo Blox Builder demo site
     content:
