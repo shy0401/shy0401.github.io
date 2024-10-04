@@ -2,13 +2,13 @@
 name = "SHY POPO"
 
 [light]
-# Primary color
-primary = "#2962ff"
+# Primary color (기본 색상을 핑크로 수정)
+primary = "#e91e63"  # 핑크색
 
 # Menu colors
 menu_primary = "rgb(247, 250, 252)"  # 메뉴 기본 색상
 menu_text = "#34495e"                # 메뉴 텍스트 색상
-menu_text_active = "#2962ff"         # 활성화된 메뉴 텍스트 색상
+menu_text_active = "#e91e63"         # 활성화된 메뉴 텍스트 색상 (핵심 핑크색)
 menu_title = "#2b2b2b"               # 메뉴 제목 색상
 
 # Home sections with constant background color
@@ -16,12 +16,12 @@ home_section_odd = "rgb(247, 250, 252)"   # 홀수 섹션 배경 색상
 home_section_even = "rgb(247, 250, 252)"  # 짝수 섹션 배경 색상
 
 [dark]
-# Primary color
-primary = "#bbdefb"
+# Primary color (다크 모드에서의 기본 핑크색)
+primary = "#ff80ab"  # 밝은 핑크색
 
 # Link colors
-link = "#bbdefb"
-link_hover = "#bbdefb"
+link = "#ff80ab"         # 링크 색상
+link_hover = "#ff80ab"   # 링크 호버 시 색상
 
 # Background and home section colors
 background = "rgb(26, 32, 44)"          # 다크 모드 배경
@@ -29,4 +29,4 @@ home_section_odd = "rgb(26, 32, 44)"    # 홀수 섹션 배경 (고정)
 home_section_even = "rgb(26, 32, 44)"   # 짝수 섹션 배경 (고정)
 
 # Menu colors
-menu_primary = "rgb(26, 32, 44)"        # 메뉴 기본 배경
+menu_primary = "rgb(26, 32, 44)"        # 다크 모드 메뉴 기본 배경
