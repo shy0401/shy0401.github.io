@@ -8,7 +8,7 @@ headless: true
 # Order that this section will appear in.
 weight: 10
 
-author: admin
+author: 신하윤
 #design:
 #  background:
 #    color: '#090a0b'
