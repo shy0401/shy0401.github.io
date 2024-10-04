@@ -44,12 +44,9 @@
     {{ end }}
 
     <div class="stream-meta article-metadata">
-
       {{ if eq $item.Type "event" }}
       <div>
-        <span>
-          {{ partial "functions/get_event_dates" $item }}
-        </span>
+        <span>{{ partial "functions/get_event_dates" $item }}</span>
         {{ with $item.Params.location }}
         <span class="middot-divider"></span>
         <span>{{ . }}</span>
@@ -72,17 +69,13 @@
     </div>
     {{ end }}
 
+    <!-- Add the Download CV button here -->
+    <div class="download-btn">
+      <a href="/uploads/resume.pdf" class="btn btn-primary" download>
+        <i class="fas fa-file-pdf"></i> Download CV
+      </a>
+    </div>
+
     <div style="margin-bottom: 50px;"></div>
   </div>
-  <!-- <div class="ml-3">
-    {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
-    {{ with $resource }}
-      {{ $image := .Resize "150x" }}
-      {{ if ne $image.MediaType.SubType "gif" }}{{ $image = $image.Process "webp" }}{{ end }}
-      <a href="{{$link}}" {{ $target | safeHTMLAttr }}>
-        <img src="{{ $image.RelPermalink }}" height="{{ $image.Height }}" width="{{ $image.Width }}"
-            alt="{{ $item.Title }}" loading="lazy">
-      </a>
-    {{end}}
-  </div> -->
 </div>
