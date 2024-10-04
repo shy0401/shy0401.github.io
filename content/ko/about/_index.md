@@ -21,61 +21,51 @@ sections:
         align: center
         background:
           image:
-            filename: security.jpg
+            filename: security1.jpg
             filters:
               brightness: 0.4
           position: center
-          color: '#000'
+          color: '#1dc6f5'
         link:
           icon: user
           icon_pack: fas
           text: <span style="font-size:60%">Join Us</span>
-          text-color: '#000'
+          text-color: '#154ed4'
           url: contact
 
       - title: <span style="font-size:70%">AI</span>
-        content: <span style="font-size:70%">의료/항공우주/컨텐츠 등 특성화 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+        content: <span style="font-size:70%">비전/데이터마이닝 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
         align: center
         background:
           image:
-            filename: Ai.jpg
+            filename: Ai1.jpg
             filters:
-              brightness: 0.4
+              brightness: 0.5
           position: center
-          color: '#000'
+          color: '#d346e3'
 
-      - title: <span style="font-size:70%">Healthcare</span>
-        content: <span style="font-size:70%">의료 및 헬스케어 분야에 적용 가능한 AI 기술 개발</span>
+      - title: <span style="font-size:70%">디지털포렌식</span>
+        content: <span style="font-size:70%">사이버수사대 디지털포렌식 중요도 증가</span>
         align: center
         background:
           image:
-            filename: healthcare.jpg
+            filename: forensic.jpg
             filters:
-              brightness: 0.4
+              brightness: 0.3
           position: center
-          color: '#000'
+          color: '#7986ba'
 
-      - title: <span style="font-size:70%">Mathematics</span>
-        content: <span style="font-size:70%">AI와 관련된 수학 및 최적화 이론 연구</span>
+      - title: <span style="font-size:70%">Math</span>
+        content: <span style="font-size:70%">데이터마이닝 및 AI 활용 수학 연구</span>
         align: center
         background:
           image:
-            filename: mathematics.jpg
+            filename: mathematics1.jpg
             filters:
               brightness: 0.4
           position: center
-          color: '#000'
+          color: '#bd4646'
 
-      - title: <span style="font-size:70%">Development</span>
-        content: <span style="font-size:70%">기반 기술을 활용한 Full-Stack 어플리케이션 개발</span>
-        align: center
-        background:
-          image:
-            filename: development.jpg
-            filters:
-              brightness: 0.4
-          position: center
-          color: '#000'
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
