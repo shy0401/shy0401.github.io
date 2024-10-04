@@ -1,7 +1,7 @@
 ---
 # Homepage
 type: widget_page
-  {{ $content := readFile "content/authors/신하윤/index.md" }}
+  {{ $content := readFile "/authors/신하윤/index.md" }}
   {{ markdownify $content }}
 
 
