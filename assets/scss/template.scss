@@ -6,6 +6,10 @@ $card-border-radius: 15px;
 $max-width-container: 880px;
 $avatar-max-size: 225px;
 $avatar-max-size-about: 200px;
+$button-bg: #3498db; // 기본 버튼 배경색 (예시)
+$button-hover-bg: #2980b9; // 버튼 호버 시 배경색 (예시)
+$button-text-color: #fff; // 기본 텍스트 색상
+$button-hover-text-color: #ecf0f1; // 호버 시 텍스트 색상
 
 // Body 배경 설정
 body {
@@ -127,4 +131,30 @@ body {
 
 ul.network-icon .big-icon {
   font-size: 1.5rem;
+}
+
+// 버튼 스타일 추가
+button {
+  background-color: $button-bg;
+  color: $button-text-color;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  border-radius: $card-border-radius;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+
+  &:hover {
+    background-color: $button-hover-bg;
+    color: $button-hover-text-color;
+  }
+}
+
+.dark button {
+  background-color: $bg-dark;
+  color: $button-text-color;
+
+  &:hover {
+    background-color: lighten($bg-dark, 10%);
+    color: $button-hover-text-color;
+  }
 }
