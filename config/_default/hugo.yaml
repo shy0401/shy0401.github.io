@@ -52,7 +52,7 @@ languages:
           weight: 121
         - parent: 개발
           name: C
-          url: coding/C
+          url: coding/java
           weight: 122
 
         - name: 취미
