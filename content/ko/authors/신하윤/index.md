@@ -47,8 +47,8 @@ social:
     link: https://www.instagram.com/white_shy1
   - icon: youtube
     icon_pack: fab
-    link: www.youtube.com/@Bassist_shy
-  - icon: Github
+    link: https://www.youtube.com/@Bassist_shy
+  - icon: github
     icon_pack: fab
     link: https://github.com/shy0401
 
