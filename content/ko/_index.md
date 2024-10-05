@@ -116,9 +116,9 @@ sections:
       order: desc
       filters:
         folders:
-          - contact
+          - event
           - coding
-          - poeple
+          - people
     design:
       view: community/custom_card
       columns: '3'

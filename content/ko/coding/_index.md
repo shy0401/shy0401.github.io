@@ -1,5 +1,5 @@
 ---
-title: "<div style='text-align:center;'>개발 관련 코딩 언어</div>"
+title: 개발 관련 코딩 언어
 
 
 # Listing view
