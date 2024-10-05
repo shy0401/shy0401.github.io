@@ -43,13 +43,4 @@ sections:
         latitude: '35.846051'
         longitude: '127.134454'
       directions:
-    design:
-      columns: '3'
-      background:
-        image:
-          filename: 'JBNU.jpg' # 배경 이미지 적용
-          size: cover
-          position: center
-          filters:
-            brightness: 0.7 # 밝기 조정
 ---
