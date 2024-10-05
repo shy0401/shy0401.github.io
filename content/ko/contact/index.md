@@ -16,7 +16,7 @@ sections:
       css_class: dark
       background:
         image:
-          filename: 'JBNU.jpg' # 배경 이미지 적용
+          filename: 'jeonbuk.jpg' # 배경 이미지 적용
           size: cover
           position: center
           filters:
