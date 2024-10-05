@@ -52,11 +52,11 @@ languages:
           url: /coding/C
           weight: 111
         - parent: 개발
-          name: 파이썬
+          name: python
           url: /coding/python
           weight: 112
         - parent: 개발
-          name: 자바
+          name: java
           url: /coding/java
           weight: 113
 
