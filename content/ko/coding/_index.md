@@ -1,5 +1,6 @@
 ---
-title: 개발 관련 코딩언어
+title: "<div style='text-align:center;'>개발 관련 코딩 언어</div>"
+
 
 # Listing view
 view: community/custom_card
