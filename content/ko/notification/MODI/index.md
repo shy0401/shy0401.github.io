@@ -13,10 +13,7 @@ date: 2021-07-02
 - 수상내역 - 수료증 및 우수상(3등)
 [![MODI 대회](456.jpg)](https://youtu.be/stqaQlx6kCw)
 
-- icon: file-pdf
-  icon_pack: fas
-  link: 2021 모디교육 수료증_신하윤
-
+<iframe src="2021 모디교육 수료증_신하윤.pdf" width="100%" height="600px"></iframe>
 
 2021년 전북대/광운대 공학교육현식센터/(주)럭스로보 주관 대회
 
