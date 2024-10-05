@@ -7,9 +7,9 @@ date: 2021-07-02
 
 <!--more-->
 
-![BCG 해킹대회 수상 사진](notification\BCG_해킹대회\bcg해킹대회.png)
-![BCG 해킹대회 수상 사진](notification\BCG_해킹대회\bcg2.jpg)
-![BCG 해킹대회 수상 사진](content\ko\notification\BCG_해킹대회\bcg1.jpg)
+![BCG 해킹대회 수상 사진](bcg해킹대회.png)
+![BCG 해킹대회 수상 사진](bcg2.jpg)
+![BCG 해킹대회 수상 사진](bcg1.jpg)
 
 - 2021년, IT정보공학과에서 주체한 BCG 해킹대회 참가
 - 수상내역 - (*수료증 미증정*) 우수상(2등)
