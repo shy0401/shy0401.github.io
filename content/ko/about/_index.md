@@ -136,7 +136,7 @@ sections:
       background:
         color: '#6b6a99'  # 아바타 배경
         image:
-          filename: beige_background.svg
+          filename: beige_background.jpg
           filters:
             brightness: 1.0
           size: cover
