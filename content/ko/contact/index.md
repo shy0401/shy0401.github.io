@@ -6,7 +6,13 @@ type: landing
 banner:
   caption: ''
   image: 'JBNU.jpg' # 배너 이미지 경로 설정
-
+  background:
+    image:
+      filename: 'JBNU.jpg' # 배경 이미지를 적용할 파일명
+      size: cover
+      position: center
+      filters:
+          rightness: 0.7 # 밝기 조정
 sections:
   - block: about.avatar
     content:
@@ -53,12 +59,5 @@ sections:
       directions:
     design:
       columns: '3'
-      background:
-        image:
-          filename: '/JBNU.jpg' # 배경 이미지를 적용할 파일명
-          size: cover
-          position: center
-          filters:
-            brightness: 0.7 # 밝기 조정
 ---
 
