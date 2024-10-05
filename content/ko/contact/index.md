@@ -5,7 +5,7 @@ type: landing
 
 banner:
   caption: ''
-  image: 'university.jpg'  # Path to the banner image
+  image: 'university.png'  # Path to the banner image
 
 sections:
   - block: about.avatar
@@ -54,3 +54,4 @@ sections:
       columns: '3'
 
 ---
+ 
