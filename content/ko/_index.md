@@ -38,6 +38,7 @@ sections:
         이 페이지는 저에 대한 포트폴리오 사이트입니다.
     design:
       columns: '2'
+      css_class: justify-text
       
   - block: slider
     content:
@@ -120,6 +121,7 @@ sections:
     design:
       view: community/custom_card
       columns: '3'
+      css_class: justify-text
 
   - block: collection
     content:
@@ -136,6 +138,7 @@ sections:
     design:
       view: community/custom_card
       columns: '3'
+      css_class: justify-text
 
       
   - block: collection
@@ -155,5 +158,6 @@ sections:
     design:
       view: community/custom_card
       columns: '3'
+      css_class: justify-text
 
 ---
