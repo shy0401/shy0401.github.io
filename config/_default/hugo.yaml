@@ -61,16 +61,21 @@ languages:
           weight: 113
 
         - name: 대회
-          url: /hobby
+          url: /notification
           weight: 120
         - parent: 대회
-          name: 보안
-          url: hobby/js
+          name: BCG_해킹대회
+          url: /notification/BCG_해킹대회
           weight: 121
         - parent: 대회
           name: 파이썬
-          url: hobby/python
+          url: /notification/MODI
           weight: 122
+        - parent: 대회
+          name: 육군 해킹
+          url: /notification/육군 해킹
+          weight: 123
+
 
         - name: 위치
           url: contact
