@@ -13,7 +13,7 @@ sections:
 
       username: 신하윤
       text: ""
-
+      
       button:
         text: Download CV
         url: uploads/resume.pdf
