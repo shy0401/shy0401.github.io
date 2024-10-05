@@ -136,7 +136,7 @@ sections:
       background:
         color: '#6b6a99'  # 아바타 배경
         image:
-          filename: stacked-peaks.svg
+          filename: beige_background.svg
           filters:
             brightness: 1.0
           size: cover

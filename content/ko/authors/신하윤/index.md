@@ -41,7 +41,7 @@ education:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:ksl@jbnu.ac.kr'
+    link: 'yj03320@jbnu.ac.kr'
   - icon: instagram
     icon_pack: fab
     link: https://www.instagram.com/white_shy1
