@@ -1,5 +1,6 @@
 ---
 title: 개발 관련 코딩 언어
+position: center
 
 
 # Listing view

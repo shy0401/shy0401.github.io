@@ -22,7 +22,7 @@ organizations:
     url: 'https://csai.jbnu.ac.kr/csai/index.do'
 
 # Short bio (displayed in user profile at end of posts)
-bio: '전북대학교 컴퓨터인공지능학부에서 인공지능 및 개발 분야를 연구하고 있습니다.'
+bio: '전북대학교 컴퓨터인공지능학부에서 인공지능 및 보안 분야를 공부하고 있습니다.'
 
 # Interests or specialties
 interests:
