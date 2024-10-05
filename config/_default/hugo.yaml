@@ -40,22 +40,23 @@ languages:
         text: ""
     menu:
       main:
+        - name: 소개
+          url: about
+          weight: 100
+
         - name: 개발
           url: /coding
           weight: 110
-
         - parent: 개발
           name: C
           url: /coding/C
           weight: 111
-
         - parent: 개발
-          name: Python
+          name: python
           url: /coding/python
           weight: 112
-
         - parent: 개발
-          name: Java
+          name: java
           url: /coding/java
           weight: 113
 

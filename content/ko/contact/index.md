@@ -1,11 +1,11 @@
 ---
 title: Contact
 view: community/custom_card
-type: contact  # Switch type to "contact"
+type: landing  # Switch type to "contact"
 
 banner:
-  caption: 'Welcome to JBNU'  # Optional caption
-  image: 'university.png'  # Path to the banner image
+  caption: 'Welcome to JBNU'
+  image: university.png
 
 sections:
   - block: about.avatar
