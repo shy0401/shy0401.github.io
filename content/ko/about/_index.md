@@ -118,7 +118,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="/people/" cta_text="Join team →" %}}
+        {{% cta cta_link="ko/people/" cta_text="Join team →" %}}
     design:
       columns: '1'
       background:

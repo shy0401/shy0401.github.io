@@ -1,5 +1,5 @@
 ---
-title: Notifications
+title: 개발 관련 코딩언어
 
 # Listing view
 view: community/custom_card
