@@ -1,6 +1,6 @@
 ---
 # Display name
-title: 신하윤
+title: 신하윤 - 전북대학교 컴퓨터인공지능학부
 
 # Full Name (for SEO)
 first_name: Hayoun
