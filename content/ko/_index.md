@@ -118,7 +118,7 @@ sections:
         folders:
           - coding
     design:
-      view: community/compact  # 섹션 1에서 compact 뷰 사용
+      view: community/custom_card  # 섹션 1에서 compact 뷰 사용
       columns: '3'
       css_class: justify-text
 
@@ -135,7 +135,7 @@ sections:
         folders:
           - notification
     design:
-      view: community/list  # 섹션 2에서 list 뷰 사용
+      view: community/custom_compact  # 섹션 2에서 list 뷰 사용
       columns: '3'
       css_class: justify-text
 
