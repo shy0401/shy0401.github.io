@@ -1,7 +1,7 @@
 ---
 title: Contact
 view: community/custom_card
-type: landing
+type: contact  # Switch type to "contact"
 
 banner:
   caption: 'Welcome to JBNU'  # Optional caption
@@ -52,3 +52,4 @@ sections:
     design:
       columns: '3'
 ---
+
