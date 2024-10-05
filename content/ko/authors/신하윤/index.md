@@ -14,7 +14,7 @@ authors:
 superuser: true
 
 # Role/position
-role: 대학생
+role: 전북대학교 공과대학생
 
 # Organizations/Affiliations
 organizations:
