@@ -1,6 +1,6 @@
 // 변수 설정
-$bg-light: rgb(247, 250, 252);
-$bg-dark: rgb(31, 39, 51);
+$bg-light: rgb(255, 255, 255); // 아주 연한 하얀색
+$bg-dark: rgb(30, 30, 30); // 검은색에 가까운 회색
 $bg-footer-dark: rgb(26, 32, 44);
 $card-border-radius: 15px;
 $max-width-container: 880px;
@@ -60,7 +60,6 @@ body {
 .justify-text {
   text-align: justify;
 }
-
 
 // 카드 스타일 및 마진
 .card-simple {
@@ -254,9 +253,10 @@ button {
   }
 }
 
+// 배너 스타일 설정
 .banner {
   position: relative;
-  height: 300px; /* Adjust height based on preference */
+  height: 300px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -265,7 +265,7 @@ button {
 
 .overlay {
   position: absolute;
-  background-color: rgba(0, 0, 0, 0.4); /* Adjust transparency */
+  background-color: rgba(0, 0, 0, 0.4);
   width: 100%;
   height: 100%;
   display: flex;
