@@ -1,21 +1,11 @@
 ---
 title: Contact
 view: community/custom_card
+type: landing
 
-banner:
-  caption: ''
-  image: 'JBNU.jpg' # 배너 이미지 경로 설정
-  background:
-    image:
-      filename: 'JBNU.jpg' # 배경 이미지를 적용할 파일명
-      size: cover
-      position: center
-      filters:
-          rightness: 0.7 # 밝기 조정
 sections:
   - block: about.avatar
     content:
-
       username: 신하윤
       text: ""
 
@@ -25,15 +15,12 @@ sections:
     design:
       css_class: dark
       background:
-        color: black
-
         image:
-          filename: stacked-peaks.svg
-          filters:
-            brightness: 1.0
+          filename: 'JBNU.jpg' # 배경 이미지 적용
           size: cover
           position: center
-          parallax: false
+          filters:
+            brightness: 0.7 # 밝기 조정
 
   - block: contact
     content:
@@ -58,5 +45,11 @@ sections:
       directions:
     design:
       columns: '3'
+      background:
+        image:
+          filename: 'JBNU.jpg' # 배경 이미지 적용
+          size: cover
+          position: center
+          filters:
+            brightness: 0.7 # 밝기 조정
 ---
-
