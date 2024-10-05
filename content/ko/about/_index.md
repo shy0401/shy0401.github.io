@@ -33,7 +33,7 @@ sections:
             icon_pack: fas
             text: <span style="font-size:60%">Join Us</span>
             text-color: '#154ed4'
-            url: contact
+            url: /people
 
         - title: <span style="font-size:70%">AI</span>
           content: <span style="font-size:70%">비전/데이터마이닝 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
@@ -85,33 +85,33 @@ sections:
       text: 저는 <br><br><br><br>
       items:
         - name: 인공지능(AI)
-          icon: code-branch
+          icon: cogs
           icon_pack: fas
-          description: <span style="font-size:90%">의료 (Medical), 항공우주 (Aerospace), 컨텐츠 (Contents) 등 다양한 특성화 분야에 적응형 AI 기술 적용.</span><br><br>
-        - name: 멀티모달(Multi-modality)
-          icon: globe
+          description: <span style="font-size:90%">데이터마이닝 및 머신러닝 AI 기술 적용.</span><br><br>
+        - name: 포렌식(Forensic)
+          icon: fingerprint
           icon_pack: fas
-          description:  <span style="font-size:90%">Vision & Language 분야의 기반 AI 기술 개발 및 관련 응용 어플리케이션에 기술 적용.</span><br><br>
-        - name: 의료수학(Medical Math)
-          icon: calculator
+          description:  <span style="font-size:90%">디지털포렌식 관련 분야 응용</span><br><br>
+        - name: 수학(Medical Math)
+          icon: square-root-alt
           icon_pack: fas
-          description:  <span style="font-size:90%">의료 분야에 대한 통계 분석 수행 및 의료 질병에 대한 수학적인 모델링 관련 연구 수행.</span><br><br>
-        - name: 컨텐츠 (Contents)
+          description:  <span style="font-size:90%">데이터분류에 대한 통계 분석 모델링 관련 연구 수행.</span><br><br>
+        - name: lock (Security)
           icon: comment-dots
           icon_pack: fas
-          description:  <span style="font-size:90%">웹툰 및 미디어 컨텐츠와 관련된 AI 기반 기술 개발 및 고도화.</span><br><br>
+          description:  <span style="font-size:90%">정보보안 관련 연구 및 학습.</span><br><br>
         - name: 개발 (Development)
           icon: laptop
           icon_pack: fas
           description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
-        - name: 솔루션 (Solution)
-          icon: app-store-ios
+        - name: 글쓰기 (Writing)
+          icon: pencil-alt
           icon_pack: fab
-          description:  <span style="font-size:90%">AI 기반기술 및 관련 어플리케이션에 적용을 통한 통합 솔루션 개발!</span><br><br>
+          description:  <span style="font-size:90%">글쓰기 관련 활동.</span><br><br>
 
     design:
       background:
-        color: '#6b6a99'  # 배경 색상
+        color: '#0f1fab'  # 배경 색상
 
   - block: markdown
     content:
