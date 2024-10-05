@@ -133,8 +133,6 @@ sections:
       filters:
         folders:
           - notification
-          - post
-          - event
     design:
       view: community/custom_card
       columns: '3'
