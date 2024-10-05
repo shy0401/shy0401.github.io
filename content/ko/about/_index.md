@@ -1,6 +1,8 @@
 ---
 # Leave the homepage title empty to use the site title
-title:
+title: about page
+description: 신하윤의 전북대학교 관련 정보
+keywords: ["전북대학교", "신하윤", "컴퓨터인공지능"]
 date: 2024-03-25
 type: landing
 
@@ -136,10 +138,12 @@ sections:
       background:
         color: '#6b6a99'  # 아바타 배경
         image:
-          filename: rm301-nunny-07.jpg
+          filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
           position: center
           parallax: false
 ---
+# 전북대학교
+신하윤은 전북대학교 컴퓨터인공지능학부에서 재학중입니다.

@@ -1,7 +1,5 @@
 ---
 title: 개발 관련 코딩 언어
-position: center
-
 
 # Listing view
 view: community/custom_card
