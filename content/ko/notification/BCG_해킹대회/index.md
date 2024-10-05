@@ -7,7 +7,6 @@ date: 2021-07-02
 
 <!--more-->
 
-![BCG 해킹대회 수상 사진](bcg해킹대회.png)
 ![BCG 해킹대회 수상 사진](bcg2.jpg)
 ![BCG 해킹대회 수상 사진](bcg1.jpg)
 
