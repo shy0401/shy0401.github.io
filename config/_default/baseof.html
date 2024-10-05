@@ -2,3 +2,32 @@
   {{ if .Site.Params.googleAnalytics }} {{ partial "google-analytics.html" . }} {{ end }} {{- partial "head/head.html"
   . -}} {{- block "head" . -}}{{ end }}
 </head>
+
+<head>
+  {{ if .Site.Params.googleAnalytics }}
+  {{ partial "google-analytics.html" . }}
+  {{ end }}
+
+  <!-- 기본 head partial 호출 -->
+  {{- partial "head/head.html" . -}}
+
+  <!-- 루트 경로에 대한 메타 태그 설정 -->
+  {{ if eq .RelPermalink "/" }}
+  <meta property="og:title" content="전북대 신하윤의 포트폴리오">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shy0401.github.io/">
+  <meta property="og:image" content="https://shy0401.github.io/assets/images/logo_3_SHY.jpg">
+  <meta property="og:description" content="전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 사이트입니다.">
+  <meta property="og:site_name" content="신하윤 포트폴리오">
+
+  <!-- Optional: Twitter Card Tags for better social media sharing -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="신하윤의 포트폴리오">
+  <meta name="twitter:description" content="전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 사이트입니다.">
+  <meta name="twitter:image" content="https://shy0401.github.io/assets/images/logo_3_SHY.jpg">
+  {{ end }}
+
+  <!-- 다른 페이지에 대한 메타 태그는 별도의 조건으로 설정 -->
+  {{- block "head" . -}}
+  {{ end }}
+</head>
