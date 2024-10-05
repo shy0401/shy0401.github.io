@@ -53,5 +53,12 @@ sections:
       directions:
     design:
       columns: '3'
-
+      background:
+        image:
+          filename: 'JBNU.jpg' # 배경 이미지를 적용할 파일명
+          size: cover
+          position: center
+          filters:
+            brightness: 0.7 # 밝기 조정
 ---
+

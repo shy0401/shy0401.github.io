@@ -108,7 +108,7 @@ sections:
         - name: 개발 (Development)
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:90%">시큐어코딩 및 리버싱 관련    
+          description:  <span style="font-size:90%">시큐어코딩 및 리버싱 관련 
             어셈블리어 공부</span><br><br>
         - name: 글쓰기 (Writing)
           icon: pen
