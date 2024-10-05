@@ -47,18 +47,16 @@ languages:
         - name: 개발
           url: /coding
           weight: 110
-        - parent: 개발
-          name: C
-          url: /coding/C
-          weight: 111
-        - parent: 개발
-          name: 자바
-          url: /coding/java
-          weight: 112
-        - parent: 개발
-          name: 파이썬
-          url: /coding/python
-          weight: 113
+          children:
+            - name: C
+              url: /coding/C
+              weight: 111
+            - name: 자바
+              url: /coding/java
+              weight: 112
+            - name: 파이썬
+              url: /coding/python
+              weight: 113
 
         - name: 대회
           url: /hobby
