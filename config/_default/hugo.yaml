@@ -97,30 +97,42 @@ languages:
         text: ""
     menu:
       main:
-        - name: about
-          url: /about
-          weight: 1
-        - name: Bio
-          url: /
-          weight: 10
-        - name: Papers
-          url: /#papers
-          weight: 11
-        - name: Talks
-          url: /#talks
-          weight: 12
-        - name: News
-          url: /#news
-          weight: 13
-        - name: Experience
-          url: experience/
-          weight: 20
-        - name: Projects
-          url: projects/
-          weight: 30
-        - name: Teaching
-          url: teaching/
-          weight: 40
+        - name: Introduction
+          url: about
+          weight: 100
+
+        - name: Development
+          url: /coding
+          weight: 110
+        - parent: Development
+          name: C
+          url: /coding/C
+          weight: 111
+        - parent: Development
+          name: Python
+          url: /coding/python
+          weight: 112
+        - parent: Development
+          name: Java
+          url: /coding/java
+          weight: 113
+
+        - name: Contests
+          url: /notification
+          weight: 120
+        - parent: Contests
+          name: BCG_Hacking_Contest
+          url: /notification/BCG_Hacking_Contest
+          weight: 121
+        - parent: Contests
+          name: MODI_Contest
+          url: /notification/MODI
+          weight: 122
+        - parent: Contests
+          name: Army_Hacking
+          url: /notification/Army_Hacking
+          weight: 123
+
 
 
 ############################
