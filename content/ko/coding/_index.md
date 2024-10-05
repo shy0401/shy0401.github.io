@@ -1,5 +1,5 @@
 ---
-title: 개발 관련 코딩 언어
+title: 개발 및 보안 관련 언어
 
 # Listing view
 view: community/custom_card

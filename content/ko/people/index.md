@@ -32,7 +32,7 @@ sections:
 
   - block: markdown
     content:
-      title: '▶ 나를 소개합니다!'
+      title: 🐇💖❤나를 소개합니다!🐇💖❤
       subtitle: ''
       text: 
     design:
@@ -41,7 +41,23 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: 섹션1
+      title: 대회
+      subtitle:
+      text:
+      count: 3
+      offset: 0
+      order: desc
+      filters:
+        folders:
+          - notification
+    design:
+      view: community/custom_card
+      columns: '3'
+
+  - block: collection
+    content:
+      id: section-2
+      title: 자격증
       subtitle:
       text:
       count: 3
@@ -57,25 +73,19 @@ sections:
       columns: '3'
 
   - block: collection
-    id: contest
     content:
-      title: 대회 및 경진대회
-      subtitle: ''
-      text: ''
-      page_type: post
-      count: 5
-      filters:
-        author: ""
-        category: ""
-        tag: ""
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ""
+      id: section-3
+      title: 코딩 및 개발
+      subtitle:
+      text:
+      count: 3
       offset: 0
       order: desc
+      filters:
+        folders:
+          - coding
     design:
-      view: date-title-summary
-      spacing:
-        padding: [0, 0, 0, 0]
+      view: community/custom_card
+      columns: '3'
+
 ---

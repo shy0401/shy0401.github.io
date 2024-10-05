@@ -108,7 +108,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: 섹션1
+      title: 개발(JAVA & C언어 & PYTHON)
       subtitle:
       text:
       count: 3
@@ -116,9 +116,7 @@ sections:
       order: desc
       filters:
         folders:
-          - event
           - coding
-          - people
     design:
       view: community/custom_card
       columns: '3'
@@ -126,7 +124,7 @@ sections:
   - block: collection
     content:
       id: section-2
-      title: 섹션2
+      title: 각종 대회
       subtitle: ''
       text: ''
       count: 3 

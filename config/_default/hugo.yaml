@@ -20,7 +20,7 @@ cascade:
     show_breadcrumb: true
 
 ############################
-## LANGUAGE
+## LANGUAGE & menus
 ############################
 
 defaultContentLanguage: ko
@@ -55,14 +55,14 @@ languages:
               url: /coding/python/
               weight: 114
 
-        - name: 취미
+        - name: 대회
           url: /hobby
           weight: 120
-        - parent: 취미
-          name: 자바
+        - parent: 대회
+          name: 보안
           url: hobby/js
           weight: 121
-        - parent: 취미
+        - parent: 대회
           name: 파이썬
           url: hobby/python
           weight: 122
@@ -77,15 +77,15 @@ languages:
           weight: 310
 
 
-  en:
-    languageCode: en-us
-    contentDir: content/en
-    weight: 2
-    params:
-      description: Ha-youn Shin's portfolio page
-      logo:
-        image: "assets/images/logo_3_SHY.png"  # 영어 사이트 로고 경로
-        text: ""
+en:
+  languageCode: en-us
+  contentDir: content/en
+  weight: 2
+  params:
+    description: Ha-youn Shin's portfolio page
+    logo:
+      image: "assets/images/logo_3_SHY.png"  # 영어 사이트 로고 경로
+      text: ""
     menu:
       main:
         - name: about
