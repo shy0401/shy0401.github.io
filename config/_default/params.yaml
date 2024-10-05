@@ -21,11 +21,11 @@ marketing:
     org_name: '전북대학교 신하윤'
     description: '전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오입니다. 인공지능, 개발, 디지털 포렌식, 정보 보안 분야에서 연구하고 있습니다.'
     twitter: ''
-    keywords: '신하윤, 전북대학교, 컴퓨터인공지능, 인공지능, AI, 디지털 포렌식, 정보 보안'
+    keywords: '신하윤, 전북대, 전북대학교, 컴퓨터인공지능, 인공지능, AI, 디지털 포렌식, 정보 보안'
     author: '신하윤'
     language: 'ko'
   analytics:
-    google_analytics: ''
+    google_analytics: 'G-K4PLZED2YY'
     baidu_tongji: ''
     google_tag_manager: ''
     microsoft_clarity: ''
@@ -35,7 +35,7 @@ marketing:
 
 params:
   description: '전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오입니다. 인공지능, 개발, 디지털 포렌식 및 정보 보안 연구에 대한 정보 제공.'
-  keywords: '신하윤, 전북대학교, 컴퓨터인공지능, 인공지능, 디지털 포렌식, 정보 보안'
+  keywords: '신하윤, 전북대, 전북대학교, 컴퓨터인공지능, 인공지능, 디지털 포렌식, 정보 보안'
   author: '신하윤'
 
 
