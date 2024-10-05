@@ -51,37 +51,34 @@ languages:
         - name: 개발
           url: /coding
           weight: 111
-        - parent: 개발
-          name: C
-          url: /coding/C
-          weight: 112
-        - parent: 개발
-          name: python
-          url: /coding/python
-          weight: 113
-        - parent: 개발
-          name: java
-          url: /coding/java
-          weight: 114
+          children:
+            - name: C
+              url: /coding/C
+              weight: 112
+            - name: python
+              url: /coding/python
+              weight: 113
+            - name: java
+              url: /coding/java
+              weight: 114
 
         - name: 대회
           url: /notification
           weight: 120
+
         - name: 대회
           url: /notification
           weight: 121
-        - parent: 대회
-          name: BCG_해킹대회
-          url: /notification/BCG_해킹대회
-          weight: 122
-        - parent: 대회
-          name: 파이썬
-          url: /notification/MODI
-          weight: 123
-        - parent: 대회
-          name: 육군 해킹
-          url: /notification/육군 해킹
-          weight: 124
+          children:
+            - name: BCG 해킹대회
+              url: /notification/BCG_해킹대회
+              weight: 122
+            - name: 파이썬
+              url: /notification/MODI
+              weight: 123
+            - name: 육군 해킹
+              url: /notification/육군 해킹
+              weight: 124
 
 
         - name: 위치
