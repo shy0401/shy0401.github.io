@@ -105,7 +105,7 @@ sections:
           icon_pack: fas
           description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
         - name: 글쓰기 (Writing)
-          icon: pencil-alt
+          icon: pen
           icon_pack: fab
           description:  <span style="font-size:90%">글쓰기 관련 활동.</span><br><br>
 
@@ -118,7 +118,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="./contact/" cta_text="Join team →" %}}
+        {{% cta cta_link="/people/" cta_text="Join team →" %}}
     design:
       columns: '1'
       background:
@@ -142,26 +142,4 @@ sections:
           size: cover
           position: center
           parallax: false
-
-  - block: portfolio
-    content:
-      title: 'Portfolio'
-      subtitle: ''
-      filters:
-        folders:
-          - project
-      filter_button:
-        - name: All
-          tag: '*'
-        - name: 1
-          tag: ML
-        - name: 2
-          tag: CV
-        - name: 3
-          tag: NLP
-    design:
-      columns: '1'
-      view: masonry
-      background:
-        color: '#6b6a99'  # 포트폴리오 섹션 배경 색상
 ---
