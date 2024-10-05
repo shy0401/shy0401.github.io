@@ -11,7 +11,9 @@ $button-hover-bg: #2980b9;
 $button-text-color: #fff;
 $button-hover-text-color: #ecf0f1;
 $transition-duration: 0.3s;
-$transition-ease: ease;
+$transition-ease: ease-in-out;
+$video-play-btn-size: 80px;
+$video-play-btn-color: rgba(255, 255, 255, 0.7);
 
 // Body 배경 설정
 body {
@@ -46,8 +48,8 @@ body {
 
 // .title 클래스를 가운데 정렬
 .title {
-  text-align: center; // 텍스트를 가운데 정렬
-  margin: 0 auto;     // 가로 가운데 정렬
+  text-align: center;
+  margin: 0 auto;
 }
 
 // 카드 스타일 및 마진
@@ -61,14 +63,17 @@ body {
   background-color: $bg-dark;
 }
 
-// Navbar의 그림자 제거
+// Navbar 그림자 제거 및 반응형 업데이트
 .navbar {
   box-shadow: none !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-// 홈 섹션 패딩 설정
+// 홈 섹션 패딩 설정 및 반응형 최적화
 .home-section {
-  padding: 1rem 0;
+  padding: 2rem 0;
   transition: padding $transition-duration $transition-ease;
 
   &.wg-about-avatar {
@@ -76,8 +81,7 @@ body {
   }
 
   > .content {
-    width: 45em;
-    max-width: calc(100% - 4em);
+    max-width: $max-width-container;
     margin: 0 auto;
 
     > :last-child {
@@ -86,7 +90,7 @@ body {
   }
 
   header {
-    margin-bottom: 1em;
+    margin-bottom: 1.5em;
   }
 }
 
@@ -97,48 +101,45 @@ body {
   }
 }
 
-// Avatar 크기 설정
+// Avatar 크기 설정 및 반응형 강화
 .avatar {
-  width: auto;
+  width: 100%;
   height: auto;
   max-width: $avatar-max-size;
   max-height: $avatar-max-size;
   transition: max-width $transition-duration $transition-ease, max-height $transition-duration $transition-ease;
 }
 
-// About 페이지의 Avatar 크기 설정
 .wg-about .avatar {
   max-width: $avatar-max-size-about;
   max-height: $avatar-max-size-about;
 }
 
-// About 페이지의 텍스트 크기 설정
+// About 페이지 텍스트 크기 설정
 .wg-about .portrait-title {
   h2 {
-    font-size: 1rem;
+    font-size: 1.2rem;
     transition: font-size $transition-duration $transition-ease;
   }
 
   h3 {
-    font-size: 0.8rem;
+    font-size: 1rem;
     transition: font-size $transition-duration $transition-ease;
   }
 }
 
-// Dark mode의 텍스트 색상 설정
-.dark .portrait-title {
-  h2, h3 {
-    font-weight: bold;
-    transition: color $transition-duration $transition-ease;
-  }
+// 다크 모드 텍스트 색상 설정
+.dark .portrait-title h2, .dark .portrait-title h3 {
+  font-weight: bold;
+  transition: color $transition-duration $transition-ease;
+}
 
-  h2 {
-    color: #fff;
-  }
+.dark .portrait-title h2 {
+  color: #fff;
+}
 
-  h3 {
-    color: rgba(255, 255, 255, 0.9);
-  }
+.dark .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.9);
 }
 
 // 네트워크 아이콘 설정
@@ -150,7 +151,7 @@ ul.network-icon .big-icon {
   font-size: 1.5rem;
 }
 
-// 버튼 스타일 추가
+// 버튼 스타일 추가 및 반응형 업데이트
 button {
   background-color: $button-bg;
   color: $button-text-color;
@@ -176,11 +177,48 @@ button {
   }
 }
 
+// 비디오 재생 버튼 스타일 추가
+.video-thumbnail {
+  position: relative;
+  display: inline-block;
+}
+
+.video-thumbnail img {
+  width: 100%;
+  height: auto;
+}
+
+.video-thumbnail .play-btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: $video-play-btn-size;
+  height: $video-play-btn-size;
+  background-color: $video-play-btn-color;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: background-color $transition-duration $transition-ease, opacity $transition-duration $transition-ease;
+  opacity: 0.8;
+}
+
+.video-thumbnail .play-btn:hover {
+  opacity: 1;
+}
+
+.play-btn i {
+  font-size: 2rem;
+  color: #fff;
+}
+
 // 반응형 설정 (모바일, 태블릿 대응)
 @media (max-width: 768px) {
   .home-section .content {
     width: auto;
-    padding: 0 2rem;
+    padding: 0 1.5rem;
   }
 
   .avatar {
@@ -189,10 +227,19 @@ button {
   }
 
   .wg-about .portrait-title h2 {
-    font-size: 0.9rem;
+    font-size: 1rem;
   }
 
   .wg-about .portrait-title h3 {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
+  }
+
+  .play-btn {
+    width: 60px;
+    height: 60px;
+  }
+
+  .play-btn i {
+    font-size: 1.5rem;
   }
 }
