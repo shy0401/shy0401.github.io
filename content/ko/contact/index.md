@@ -4,6 +4,13 @@ view: community/custom_card
 type: landing
 
 sections:
+  - background:
+    image:
+      filename: 'jeonbuk.jpg' # 배경 이미지 적용
+      size: cover
+      position: center
+      filters:
+        brightness: 0.7 # 밝기 조정
   - block: about.avatar
     content:
       username: 신하윤
@@ -14,13 +21,7 @@ sections:
         url: uploads/resume.pdf
     design:
       css_class: dark
-      background:
-        image:
-          filename: 'jeonbuk.jpg' # 배경 이미지 적용
-          size: cover
-          position: center
-          filters:
-            brightness: 0.7 # 밝기 조정
+
 
   - block: contact
     content:
