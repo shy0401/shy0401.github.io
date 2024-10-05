@@ -48,17 +48,21 @@ languages:
           url: /coding
           weight: 110
         - parent: 개발
+          name: 개발
+          url: /coding
+          weight: 111
+        - parent: 개발
           name: C
           url: /coding/C
-          weight: 111
+          weight: 112
         - parent: 개발
           name: python
           url: /coding/python
-          weight: 112
+          weight: 113
         - parent: 개발
           name: java
           url: /coding/java
-          weight: 113
+          weight: 114
 
         - name: 대회
           url: /notification
@@ -105,17 +109,21 @@ languages:
           url: /coding
           weight: 110
         - parent: Development
+          name: Development
+          url: /coding
+          weight: 111
+        - parent: Development
           name: C
           url: /coding/C
-          weight: 111
+          weight: 112
         - parent: Development
           name: Python
           url: /coding/python
-          weight: 112
+          weight: 113
         - parent: Development
           name: Java
           url: /coding/java
-          weight: 113
+          weight: 114
 
         - name: Contests
           url: /notification
