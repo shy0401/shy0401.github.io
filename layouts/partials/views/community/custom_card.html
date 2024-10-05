@@ -20,13 +20,14 @@
 
 {{ $resource := partial "blox-core/functions/get_featured_image.html" $item }}
 
-<!-- Add the banner section -->
+<!-- Add the banner section if present -->
 {{ if .Params.banner }}
-<section class="banner">
-  <img src="{{ .Params.banner.image | relURL }}" alt="{{ .Params.banner.caption }}">
-  {{ with .Params.banner.caption }}
-  <div class="banner-caption">{{ . }}</div>
-  {{ end }}
+<section class="banner" style="background-image: url('{{ .Params.banner.image | relURL }}'); background-size: cover; background-position: center;">
+  <div class="overlay">
+    {{ with .Params.banner.caption }}
+    <div class="banner-caption">{{ . }}</div>
+    {{ end }}
+  </div>
 </section>
 {{ end }}
 
@@ -63,7 +64,6 @@
       {{ partial "page_links" (dict "page" $item "is_list" 1) }}
     </div>
     {{ end }}
-
-    <!-- Add the Download CV button here -->
   </div>
 </div>
+

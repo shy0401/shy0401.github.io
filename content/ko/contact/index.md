@@ -4,13 +4,12 @@ view: community/custom_card
 type: landing
 
 banner:
-  caption: ''
+  caption: 'Welcome to JBNU'  # Optional caption
   image: 'university.png'  # Path to the banner image
 
 sections:
   - block: about.avatar
     content:
-
       username: 신하윤
       text: ""
 
@@ -52,6 +51,4 @@ sections:
       directions:
     design:
       columns: '3'
-
 ---
- 
