@@ -5,7 +5,7 @@ type: landing  # Switch type to "contact"
 
 banner:
   caption: 'Welcome to JBNU'
-  image: university.png
+  image: 'university.png'
 
 sections:
   - block: about.avatar

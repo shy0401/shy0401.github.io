@@ -7,5 +7,5 @@ view: community/custom_card
 # Optional header image (relative to `assets/media/` folder).
 banner:
   caption: ''
-  image: 'jeonbuk.jpg'
+  image: 'university.png'
 ---
