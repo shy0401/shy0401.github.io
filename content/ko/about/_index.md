@@ -14,6 +14,7 @@ sections:
       text: <br><span style="font-size:125%">전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="/ko/people" cta_text="포트폴리오 보기 →" %}}
     design:
+      css_class: justify-text
       background:
         color: '#6b6a99'  # 배경 색상
 
@@ -71,7 +72,8 @@ sections:
             color: '#bd4646'
 
     design:
-      slide_height: '350px'
+      css_class: justify-text
+      slide_height: '500px'
       slide_width: '100px'
       is_fullscreen: false
       loop: true
@@ -112,8 +114,10 @@ sections:
           description:  <span style="font-size:90%">글쓰기 관련 활동.</span><br><br>
 
     design:
+      css_class: justify-text
       background:
         color: '#0f1fab'  # 배경 색상
+        
 
   - block: markdown
     content:
@@ -123,6 +127,7 @@ sections:
         {{% cta cta_link="/ko/people/" cta_text="Join team →" %}}
     design:
       columns: '1'
+      css_class: justify-text
       background:
         color: '#6b6a99'  # 배경 색상 추가
 

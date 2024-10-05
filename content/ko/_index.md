@@ -32,12 +32,12 @@ sections:
           
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '📚 My Portfolio'
       subtitle: ''
       text: |-
-        이 페이지는 저에 대한 포트폴리오 사이트입니다.
+        이 페이지는 신하윤의 포트폴리오 사이트입니다.
     design:
-      columns: '2'
+      columns: '3'
       css_class: justify-text
       
   - block: slider
@@ -97,7 +97,7 @@ sections:
 
     design:
       # Slide height is automatic unless you force a specific height (e.g. '400px')
-      slide_height: '350px'
+      slide_height: '600px'
       slide_width: '100px'
       is_fullscreen: false
       # Automatically transition through slides?
