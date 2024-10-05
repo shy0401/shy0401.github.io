@@ -34,8 +34,7 @@ sections:
     content:
       title: '📚 My Portfolio'
       subtitle: ''
-      text: |-
-        이 페이지는 신하윤의 포트폴리오 사이트입니다.
+      text: 이 페이지는 신하윤의 포트폴리오 사이트입니다.
     design:
       columns: '3'
       css_class: justify-text

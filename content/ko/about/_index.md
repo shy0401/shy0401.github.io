@@ -14,9 +14,9 @@ sections:
       text: <br><span style="font-size:125%">전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 페이지에 오신 것을 환영합니다.</span> <br><br>
         {{% cta cta_link="/ko/people" cta_text="포트폴리오 보기 →" %}}
     design:
-      css_class: justify-text
+      css_class: p
       background:
-        color: '#6b6a99'  # 배경 색상
+        color: '#3f32ad'
 
   - block: slider
     content:
@@ -36,11 +36,11 @@ sections:
             icon_pack: fas
             text: <span style="font-size:60%">Join Us</span>
             text-color: '#154ed4'
-            url: /people
+            url: ko/people
 
         - title: <span style="font-size:70%">AI</span>
           content: <span style="font-size:70%">비전/데이터마이닝 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
-          align: center
+          css_class: justify-text
           background:
             image:
               filename: Ai1.jpg
@@ -62,7 +62,7 @@ sections:
 
         - title: <span style="font-size:70%">Math</span>
           content: <span style="font-size:70%">데이터마이닝 및 AI 활용 수학 연구</span>
-          align: center
+          css_class: justify-text
           background:
             image:
               filename: mathematics1.jpg
@@ -72,7 +72,6 @@ sections:
             color: '#bd4646'
 
     design:
-      css_class: justify-text
       slide_height: '500px'
       slide_width: '100px'
       is_fullscreen: false
@@ -86,12 +85,13 @@ sections:
     content:
       title: <span style="font-size:75%">My Interests</span>
 
-      text: 저는 <br><br><br><br>
+      text: 아래는 저의 관심사에 대한 소개입니다! <br><br><br><br>
       items:
         - name: 인공지능(AI)
           icon: cogs
           icon_pack: fas
-          description: <span style="font-size:90%">데이터마이닝 및 머신러닝 AI 기술 적용.</span><br><br>
+          description: <span style="font-size:90%">데이터마이닝 및 머신러닝   
+            AI 기술 적용.</span><br><br>
         - name: 포렌식(Forensic)
           icon: fingerprint
           icon_pack: fas
@@ -99,7 +99,8 @@ sections:
         - name: 수학(Medical Math)
           icon: square-root-alt
           icon_pack: fas
-          description:  <span style="font-size:90%">데이터분류에 대한 통계 분석 모델링 관련 연구 수행.</span><br><br>
+          description:  <span style="font-size:90%">데이터분류에 대한 통계 분석    
+            모델링 관련 연구 수행.</span><br><br>
         - name: lock (Security)
           icon: comment-dots
           icon_pack: fas
@@ -107,10 +108,11 @@ sections:
         - name: 개발 (Development)
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:90%">Full-Stack 기반의 응용 어플리케이션 개발.</span><br><br>
+          description:  <span style="font-size:90%">시큐어코딩 및 리버싱 관련    
+            어셈블리어 공부</span><br><br>
         - name: 글쓰기 (Writing)
           icon: pen
-          icon_pack: fab
+          icon_pack: fas
           description:  <span style="font-size:90%">글쓰기 관련 활동.</span><br><br>
 
     design:
