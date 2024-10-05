@@ -133,6 +133,13 @@ languages:
           url: /notification/Army_Hacking
           weight: 123
 
+        - name: location
+          url: contact
+          weight: 300
+
+        - name: Portfolio
+          url: people
+          weight: 310
 
 
 ############################

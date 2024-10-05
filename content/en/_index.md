@@ -11,7 +11,7 @@ sections:
   - block: about.avatar
     content:
       
-      username: 신하윤
+      username: Shin Ha-yoon
       text: ""
       
       button:
@@ -34,7 +34,7 @@ sections:
     content:
       title: '📚 My Portfolio'
       subtitle: ''
-      text: 이 페이지는 신하윤의 포트폴리오 사이트입니다.
+      text: This page is Shin Ha-yoon's portfolio site.
     design:
       columns: '3'
       css_class: justify-text
@@ -43,8 +43,8 @@ sections:
     content:
       slides:
 
-        - title: <span style="font-size:70%">정보보안</span>
-          content: <span style="font-size:70%">중요해지고 있는 정보보안 및 사이버 보안</span>
+        - title: <span style="font-size:70%">information security</span>
+          content: <span style="font-size:70%">Information security and cyber security is becoming more important안</span>
           align: center
           background:
             image:
@@ -61,7 +61,7 @@ sections:
             url: contact
 
         - title: <span style="font-size:70%">AI</span>
-          content: <span style="font-size:70%">비전/데이터마이닝 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
+          content: <span style="font-size:70%">Development of AI technology applicable to vision/data mining field<span style="font-size:70%">
           align: center
           background:
             image:
@@ -71,8 +71,8 @@ sections:
             position: center
             color: '#d346e3'
 
-        - title: <span style="font-size:70%">디지털포렌식</span>
-          content: <span style="font-size:70%">사이버수사대 디지털포렌식 중요도 증가</span>
+        - title: <span style="font-size:70%">Digital forensics</span>
+          content: <span style="font-size:70%">Cyber Investigation Unit's Digital Forensics Increase in Importance</span>
           align: center
           background:
             image:
@@ -83,7 +83,7 @@ sections:
             color: '#7986ba'
 
         - title: <span style="font-size:70%">Math</span>
-          content: <span style="font-size:70%">데이터마이닝 및 AI 활용 수학 연구</span>
+          content: <span style="font-size:70%">Research on Mathematics Using Data Mining and AI</span>
           align: center
           background:
             image:
@@ -108,7 +108,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: 개발
+      title: Development
       subtitle:
       text:
       count: 3
@@ -118,14 +118,14 @@ sections:
         folders:
           - coding
     design:
-      view: community/custom_card  # 섹션 1에서 compact 뷰 사용
+      view: community/custom_card 
       columns: '3'
       css_class: justify-text
 
   - block: collection
     content:
       id: section-2
-      title: 각종 대회
+      title: Contests
       subtitle: ''
       text: ''
       count: 3
@@ -142,7 +142,7 @@ sections:
   - block: collection
     content:
       id: section-3
-      title: 자격증
+      title: Certificate
       subtitle:
       text:
       count: 3

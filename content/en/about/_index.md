@@ -12,7 +12,7 @@ sections:
     content:
       title: <span style="font-size:85%">신하윤의 포트폴리오 사이트</span>
       text: <br><span style="font-size:125%">전북대학교 컴퓨터인공지능학부 신하윤의 포트폴리오 페이지에 오신 것을 환영합니다.</span> <br><br>
-        {{% cta cta_link="/ko/people" cta_text="포트폴리오 보기 →" %}}
+        {{% cta cta_link="/en/people" cta_text="포트폴리오 보기 →" %}}
     design:
       css_class: p
       background:
@@ -36,7 +36,7 @@ sections:
             icon_pack: fas
             text: <span style="font-size:60%">Join Us</span>
             text-color: '#154ed4'
-            url: ko/people
+            url: en/people
 
         - title: <span style="font-size:70%">AI</span>
           content: <span style="font-size:70%">비전/데이터마이닝 분야에 적용 가능한 AI 기술 개발<span style="font-size:70%">
@@ -85,35 +85,35 @@ sections:
     content:
       title: <span style="font-size:75%">My Interests</span>
 
-      text: 아래는 저의 관심사에 대한 소개입니다! <br><br><br><br>
+      text: Below is an introduction to my interests! <br><br><br><br>
       items:
-        - name: 인공지능(AI)
+        - name: AI
           icon: cogs
           icon_pack: fas
-          description: <span style="font-size:90%">데이터마이닝 및 머신러닝   
-            AI 기술 적용.</span><br><br>
-        - name: 포렌식(Forensic)
+          description: <span style="font-size:90%"> Data mining and machine learning
+            Application of AI technology.</span><br><br>
+        - name: Forensic
           icon: fingerprint
           icon_pack: fas
-          description:  <span style="font-size:90%">디지털포렌식 관련 분야 응용</span><br><br>
-        - name: 수학(Medical Math)
+          description:  <span style="font-size:90%"> Applications in Digital Forensics</span><br><br>
+        - name: Math
           icon: square-root-alt
           icon_pack: fas
-          description:  <span style="font-size:90%">데이터분류에 대한 통계 분석    
-            모델링 관련 연구 수행.</span><br><br>
+          description:  <span style="font-size:90%"> Statistical Analysis of Data Classification
+            Conducting research on modeling.</span><br><br>
         - name: lock (Security)
           icon: comment-dots
           icon_pack: fas
-          description:  <span style="font-size:90%">정보보안 관련 연구 및 학습.</span><br><br>
-        - name: 개발 (Development)
+          description:  <span style="font-size:90%"> Research and learning on information security.</span><br><br>
+        - name: Development
           icon: laptop
           icon_pack: fas
-          description:  <span style="font-size:90%">시큐어코딩 및 리버싱 관련 
-            어셈블리어 공부</span><br><br>
-        - name: 글쓰기 (Writing)
+          description:  <span style="font-size:90%"> Regarding Secure Coding and Reversing
+            Study assembly</span><br><br>
+        - name: Writing
           icon: pen
           icon_pack: fas
-          description:  <span style="font-size:90%">글쓰기 관련 활동.</span><br><br>
+          description:  <span style="font-size:90%"> writing-related activities.</span><br><br>
 
     design:
       css_class: justify-text
@@ -126,7 +126,7 @@ sections:
       title:
       subtitle:
       text: |
-        {{% cta cta_link="/ko/people/" cta_text="Join team →" %}}
+        {{% cta cta_link="/en/people/" cta_text="Join team →" %}}
     design:
       columns: '1'
       css_class: justify-text
@@ -135,7 +135,7 @@ sections:
 
   - block: about.avatar
     content:
-      username: 신하윤
+      username: Shin Ha-yoon
       text: ""
       button:
         text: "Download CV"
@@ -152,5 +152,6 @@ sections:
           position: center
           parallax: false
 ---
-# 전북대학교
-신하윤은 전북대학교 컴퓨터인공지능학부에서 재학중입니다.
+# Jeonbuk National University
+
+Shin Ha-yoon is a student at Chonbuk National University's Department of Computer and Artificial Intelligence.
