@@ -3,6 +3,10 @@ title: Contact
 view: community/custom_card
 type: landing
 
+banner:
+  caption: ''
+  image: 'university.jpg'  # Path to the banner image
+
 sections:
   - block: about.avatar
     content:
