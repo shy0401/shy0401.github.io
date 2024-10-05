@@ -24,22 +24,19 @@ organizations:
 # Short bio (displayed in user profile at end of posts)
 bio: '전북대학교 컴퓨터인공지능학부에서 인공지능 및 보안 분야를 공부하고 있습니다.'
 
+# Interests or specialties
 interests:
   - 인공지능 (AI)
-  - Vision & Language
-  - 의료수학 (Medical Mathematics)
-  - 항공우주 (Aerospace)
-  - 컨텐츠 (Contents)
   - 개발 (Development & Deploy)
+  - 사이버 수사 & 디지털포렌식
 
+# Education
 education:
   courses:
-    - course: Integrated M.S. & Ph.D. in (전기전자컴퓨터공학과)
-      institution: 대구경북과학기술원 (DGIST)
-      year: 2018 - 2023
-    - course: B.S. in (전산전자공학부)
-      institution: 한동대학교
-      year: 2014 - 2018
+    - course: 컴퓨터인공지능학부 재학
+      institution: 전북대학교
+      year: 2021 - 2024
+
 
 # Social/Academic Networking
 social:

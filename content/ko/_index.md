@@ -108,7 +108,7 @@ sections:
   - block: collection
     content:
       id: section-1
-      title: 개발(JAVA & C언어 & PYTHON)
+      title: 개발
       subtitle:
       text:
       count: 3
@@ -118,7 +118,7 @@ sections:
         folders:
           - coding
     design:
-      view: community/custom_card
+      view: community/compact  # 섹션 1에서 compact 뷰 사용
       columns: '3'
       css_class: justify-text
 
@@ -128,22 +128,21 @@ sections:
       title: 각종 대회
       subtitle: ''
       text: ''
-      count: 3 
+      count: 3
       offset: 0
       order: desc
       filters:
         folders:
           - notification
     design:
-      view: community/custom_card
+      view: community/list  # 섹션 2에서 list 뷰 사용
       columns: '3'
       css_class: justify-text
 
-      
   - block: collection
     content:
       id: section-3
-      title: 섹션3
+      title: 자격증
       subtitle:
       text:
       count: 3
@@ -151,12 +150,11 @@ sections:
       order: desc
       filters:
         folders:
-          - notification
-          - post
           - event
     design:
-      view: community/custom_card
+      view: community/grid  # 섹션 3에서 grid 뷰 사용
       columns: '3'
       css_class: justify-text
+
 
 ---
